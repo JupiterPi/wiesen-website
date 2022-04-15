@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+  background-image: url("/assets/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #454545;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-family: 'Roboto Slab', serif;
+  color: var(--text-color);
+}
+
+/* styles */
+
+:root {
+  --text-color: black;
+  --text-color-light: white;
+}
+
+/* layout */
+
+#page-container {
+  margin: 352px 0 70px 0;
+}
+
+#page-inner-container {
+  margin: 0 396px 0 193px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: stretch;
+}
+
+#toc-container {
+  padding: 10px;
+  min-width: 215px;
+  margin-top: 30px;
+  margin-right: 8px;
+}
+
+#toc-inner-container {
+  width: 100%;
+  position: sticky;
+  top: 20px;
+  text-shadow: 0 0 20px black;
+}
+
+#content-container {
+  flex-grow: 1;
+  padding: 1px 15px;
+
+  background-color: white;
+  box-shadow: 0 7px 29px black;
+
+  width: available;
+  max-width: 1800px;
+  min-height: 300px;
+}
+
+@media screen and (max-width: 1800px) {
+  #page-inner-container {
+    margin: 0 10px;
+  }
+
+  #page-container {
+    margin-bottom: 15px;
+  }
+}
+
+/* header */
+
+h1.header {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: lighter;
+  color: white;
+}
+
+h1#header-std {
+  display: inline;
+  position: relative;
+  bottom: -9px;
+
+  padding-right: 30px;
+}
+
+h1#header-std::after {
+  content: '';
+  position: absolute;
+  box-shadow: 0 0 20px 30px black;
+  z-index: -10;
+  width: calc(100% - 30px);
+  height: 100%;
+  left: 18px;
+  top: 80%;
+  opacity: 20%;
+}
+
+h1#header-mobile {
+  display: none;
+}
+
+/* table of contents */
+
+.toc-entry {
+  width: available;
+  text-align: right;
+  padding: 5px 0 5px 20px;
+}
+
+.toc-entry a {
+  text-decoration: none;
+  color: var(--text-color-light);
+}
+
+.toc-divider {
+  height: 0;
+  border-top: 1px solid var(--text-color-light);
+  margin: 5px 0;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 1100px) {
+  #page-container {
+    margin-top: 10px;
+  }
+
+  h1#header-std {
+    display: none;
+  }
+  h1#header-mobile {
+    display: block;
+  }
+
+  #page-inner-container {
+    flex-direction: column;
+  }
+
+  .toc-entry {
+    text-align: left;
+    padding: 5px;
+  }
+
+  #toc-container {
+    margin: initial;
+  }
+}

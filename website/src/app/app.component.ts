@@ -6,5 +6,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'wiesen-website';
+  toc = [
+    [
+      {
+        name: "Home",
+        route: "/"
+      }
+    ], [
+      {
+        name: "Der Ort Mährisch Wiesen",
+        route: "/"
+      },
+      {
+        name: "Yet Another Page",
+        route: "/"
+      }
+    ], [
+      {
+        name: "A Very Other Page",
+        route: "/"
+      },
+      {
+        name: "The Last Page",
+        route: "/"
+      }
+    ]
+  ]
 }
