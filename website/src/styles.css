@@ -123,6 +123,15 @@ h1#header-mobile {
   margin: 5px 0;
 }
 
+.toc-entry-activated-indicator {
+  font-weight: bolder;
+
+  color: rgba(0, 0, 0, 0);
+}
+.toc-entry-activated-indicator.activated {
+  color: inherit;
+}
+
 /* MOBILE */
 
 @media screen and (max-width: 1100px) {

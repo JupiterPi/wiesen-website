@@ -8,7 +8,10 @@
       <div id="toc-inner-container">
         <div *ngFor="let section of toc" class="toc-section">
           <div *ngFor="let entry of section" class="toc-entry">
-            <a [routerLink]="entry.route">{{entry.name}}</a>
+            <a [routerLink]="entry.route">
+              {{entry.name}}
+              <span class="toc-entry-activated-indicator" [class.activated]="entry.activated">·</span>
+            </a>
           </div>
           <div class="toc-divider" *ngIf="section != toc[toc.length-1]"></div>
         </div>
