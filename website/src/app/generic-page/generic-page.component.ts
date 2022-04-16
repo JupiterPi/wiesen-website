@@ -25,6 +25,6 @@ export class GenericPageComponent implements OnInit {
 
   loadPage() {
     const params = this.route.snapshot.params;
-    this.parsedHtml = marked.parse(`Displaying generic page ${params["page"]} in section ${params["section"]}: \n\n${this.markdown}`);
+    this.parsedHtml = marked.parse(`Displaying generic page **${params["page"]}** in section **${params["section"]}**: \n\n${this.markdown}`);
   }
 }

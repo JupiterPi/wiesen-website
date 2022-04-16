@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import {RouterModule} from "@angular/router";
 import { SamplePageComponent } from './sample-page/sample-page.component';
 import { GenericPageComponent } from './generic-page/generic-page.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { GenericPageComponent } from './generic-page/generic-page.component';
   ],
     imports: [
       BrowserModule,
+      HttpClientModule,
       RouterModule.forRoot([
         {path: "", component: SamplePageComponent},
         {path: ":section/:page", component: GenericPageComponent}
