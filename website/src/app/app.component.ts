@@ -204,11 +204,8 @@ export class AppComponent implements OnInit {
   }
 
   showActivatedPageInToc() {
-    console.log(this.route.firstChild != null);
     const activatedRoute = (this.route.firstChild != null ? (this.route.firstChild as ActivatedRoute) : this.route);
-    console.log(activatedRoute);
     const params = activatedRoute.snapshot.params;
-    console.log(params);
     const targetRouteId = params["section"] + "/" + params["page"];
     for (let section of this.toc) {
       for (let page of section) {
