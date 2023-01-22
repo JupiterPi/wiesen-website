@@ -32,6 +32,8 @@ Bereits in der Volkszählung 1914 erscheint als Gastwirt sein Sohn (?) Eduard La
 ## Die großen Bauernhöfe Nr. 2, Nr. 3, Nr. 4 und Nr. 5
 
 =======
+
+
 # Der Ort Mährisch Wiesen
 
 ## Die Mährisch-Wiesener Kapelle sowie der Bildstock der Dreifaltigkeit
@@ -48,7 +50,7 @@ Zwischen den Häusern Schauer und Berger steht ein hölzernes Wegkreuz. Das Orig
 
 Im Ort gab es seit Mitte des 19. Jahrhunderts eine Schmiede. Sie führte die Nummer 7 und war bis zur Vertreibung, also 100 Jahre im Familienbesitz. Die Tochter des ersten Besitzer Anton Czernys, mit Namen Juliana, wird 1855 geboren und heiratet um 1880 Wenzel Sauer. Dieser übernimmt nach dem Tode des Anton Czernys die Schmiede, verstirbt jedoch 1929 nach schwerer Krankheit. Von nun an führte der Schwiegersohn von Wenzel Sauer und Juliana (geb. Czerny) die Schmiede, bis er sich von seiner Frau trennt. Ab dort wurde sie eine Zeit lang verpachtet, später stand sie leer.
 1859 lässt Franz Michele ein Kind taufen. Er war Schmiedegeselle, vermutlich bei Anton Czerny), wohnte aber in Nr. 11.
-Am 6.2.1867 wird dem Thomas Koukal (gebürtig aus Jaroměřice nad Rokytnou) , Schmied von Nr. 3, ein Kind geboren. Er wird auch bei Anton Czerny gearbeitet haben, da er in Nr. 3 nur als Untermieter lebte und dieses Haus auch keine Schmiede war.
+Am 6.2.1867 wird dem Thomas Koukal (gebürtig aus Jaroměřice nad Rokytnou), Schmied von Nr. 3, ein Kind geboren. Er wird auch bei Anton Czerny gearbeitet haben, da er in Nr. 3 nur als Untermieter lebte und dieses Haus auch keine Schmiede war.
 
 
 ## Das Gasthaus Langhammer (Nr. 6)

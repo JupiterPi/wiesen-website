@@ -159,3 +159,26 @@ h1#header-mobile {
     margin: initial;
   }
 }
+
+/* ----- pages ----- */
+
+blockquote {
+  border-left: 2px darkgray solid;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+#content-container a:link, #content-container a:hover, #content-container a:active, #content-container a:visited {
+  color: black;
+  text-decoration: underline #0366d6 solid;
+  text-decoration-thickness: 2px;
+  transition: text-decoration 1s ease;
+}
+
+#content-container a:hover {
+  text-decoration: none;
+}
+
+
+/* images */
+
