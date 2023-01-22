@@ -1,63 +1,57 @@
 {
-  "pages": {
-    "sections": [
+  "pages": [
+    [
       {
-        "name": "oth",
-        "pages": [
-          {
-            "id": "home",
-            "name": "Home"
-          },
-          {
-            "id": "genealogie",
-            "name": "Genealogie"
-          },
-          {
-            "id": "kontakt",
-            "name": "Kontakt"
-          }
-        ]
+        "id": "oth/home",
+        "title": "Home",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
+        "id": "mw/ort-maehrisch-wiesen",
+        "title": "Der Ort Mährisch Wiesen",
+        "type": "markdown"
       },
       {
-        "name": "mw",
-        "pages": [
-          {
-            "id": "ort-maehrisch-wiesen",
-            "name": "Der Ort Mährisch Wiesen"
-          },
-          {
-            "id": "geschichte-von-maehrisch-wiesen",
-            "name": "Geschichte von Mährisch Wiesen"
-          },
-          {
-            "id": "volkszaehlungen",
-            "name": "Volkszählungen"
-          }
-        ]
+        "id": "mw/geschichte-von-maehrisch-wiesen",
+        "title": "Geschichte von Mährisch Wiesen",
+        "type": "markdown"
       },
       {
-        "name": "bw",
-        "pages": [
-          {
-            "id": "ort-boehmisch-wiesen",
-            "name": "Der Ort Böhmisch Wiesen"
-          },
-          {
-            "id": "geschichte-von-boehmisch-wiesen",
-            "name": "Geschichte von Böhmisch Wiesen"
-          },
-          {
-            "id": "volkszaehlungen",
-            "name": "Volkszählungen"
-          }
-        ]
+        "id": "mw/volkszaehlung",
+        "title": "Volkszählung",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
+        "id": "bw/ort-boehmisch-wiesen",
+        "title": "Der Ort Mährisch Wiesen",
+        "type": "markdown"
+      },
+      {
+        "id": "bw/geschichte-von-boehmisch-wiesen",
+        "title": "Geschichte von Böhmisch Wiesen",
+        "type": "markdown"
+      },
+      {
+        "id": "bw/volkszaehlung",
+        "title": "Volkszählung",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
+        "id": "oth/genealogie",
+        "title": "Genealogie",
+        "type": "markdown"
+      },
+      {
+        "id": "oth/kontakt",
+        "title": "Kontakt",
+        "type": "custom"
       }
     ]
-  },
-  "toc": [
-    ["oth/home"],
-    ["mw/ort-maehrisch-wiesen", "mw/geschichte-von-maehrisch-wiesen", "mw/volkszaehlungen"],
-    ["bw/ort-boehmisch-wiesen", "bw/geschichte-von-boehmisch-wiesen", "bw/volkszaehlungen"],
-    ["oth/genealogie", "oth/kontakt"]
   ]
 }

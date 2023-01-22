@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wiesen-website": {
+      "hosting": {
+        "wiesen-website": [
+          "wiesen-website"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wiesen-website"
+  }
+}

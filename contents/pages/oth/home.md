@@ -31,7 +31,3 @@ Wünscht Ihnen Jakob.
     let span = document.getElementById("age");
     span.innerText = "" + years;
 </script>
-
-<script>
-    isHome = true;
-</script>

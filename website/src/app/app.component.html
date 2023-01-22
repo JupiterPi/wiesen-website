@@ -4,16 +4,16 @@
 
     <h1 class="header" id="header-mobile">Mährisch und Böhmisch Wiesen im Schönhengstgau</h1>
 
-    <div id="toc-container">
+    <div id="toc-container" *ngIf="(pageStructure | async) as pageStructure">
       <div id="toc-inner-container">
-        <div *ngFor="let section of toc" class="toc-section">
-          <div *ngFor="let entry of section" class="toc-entry">
-            <a [routerLink]="entry.route">
-              {{entry.name}}
-              <span class="toc-entry-activated-indicator" [class.activated]="entry.activated">·</span>
+        <div *ngFor="let section of pageStructure" class="toc-section">
+          <div *ngFor="let page of section" class="toc-entry">
+            <a [routerLink]="page.id.split('/')">
+              {{page.title}}
+              <span class="toc-entry-activated-indicator" [class.activated]="(activatedPage | async) == page.id">·</span>
             </a>
           </div>
-          <div class="toc-divider" *ngIf="section != toc[toc.length-1]"></div>
+          <div class="toc-divider" *ngIf="pageStructure.indexOf(section) != pageStructure.length - 1"></div>
         </div>
       </div>
     </div>
@@ -22,6 +22,7 @@
       <h1 class="header" id="header-std">Mährisch und Böhmisch Wiesen im Schönhengstgau</h1>
       <div id="content-container">
         <router-outlet></router-outlet>
+        {{activatedPage | async}}
       </div>
     </div>
 
