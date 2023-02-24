@@ -1,0 +1,68 @@
+<ng-container *ngFor="let child of children">
+
+  <ng-container [ngSwitch]="child.type">
+
+    <!-- Headings -->
+    <ng-container *ngSwitchCase="'heading'">
+      <h1 *ngIf="child.depth === 1" [attr.data-line]="pos(child)" [md-inline]="child"></h1>
+      <h2 *ngIf="child.depth === 2" [attr.data-line]="pos(child)" [md-inline]="child"></h2>
+      <h3 *ngIf="child.depth === 3" [attr.data-line]="pos(child)" [md-inline]="child"></h3>
+      <h4 *ngIf="child.depth === 4" [attr.data-line]="pos(child)" [md-inline]="child"></h4>
+      <h5 *ngIf="child.depth === 5" [attr.data-line]="pos(child)" [md-inline]="child"></h5>
+      <h6 *ngIf="child.depth === 6" [attr.data-line]="pos(child)" [md-inline]="child"></h6>
+    </ng-container>
+    <!--<ng-container *ngSwitchCase="'heading'">
+      <h1 *ngIf="child.depth === 1" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h1>
+      <h2 *ngIf="child.depth === 2" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h2>
+      <h3 *ngIf="child.depth === 3" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h3>
+      <h4 *ngIf="child.depth === 4" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h4>
+      <h5 *ngIf="child.depth === 5" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h5>
+      <h6 *ngIf="child.depth === 6" [id]="toc(child)" [attr.data-line]="pos(child)" [md-inline]="child"></h6>
+    </ng-container>-->
+
+    <!-- Paragraph -->
+    <p *ngSwitchCase="'paragraph'" [attr.data-line]="pos(child)" [md-inline]="child"></p>
+
+    <!-- Lists -->
+    <!--<ng-container *ngSwitchCase="'list'">
+      <ol *ngIf="child.ordered" [start]="child.start">
+        <li *ngFor="let item of child.children" [md-block]="item"></li>
+      </ol>
+      <ul *ngIf="!child.ordered">
+        <li *ngFor="let item of child.children" [md-block]="item"></li>
+      </ul>
+    </ng-container>-->
+
+    <!-- Tables -->
+    <table *ngSwitchCase="'table'" [attr.data-line]="pos(child)">
+      <tbody>
+        <tr *ngFor="let row of child.children">
+          <td *ngFor="let cell of row.children; index as i" [attr.align]="child.align[i]||''" [md-inline]="cell"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Thematic Break -->
+    <hr *ngSwitchCase="'thematicBreak'" [attr.data-line]="pos(child)"/>
+
+    <!-- Blockquotes -->
+    <blockquote *ngSwitchCase="'blockquote'" [md-block]="child"></blockquote>
+
+    <!-- Left aligned block - Align plugin -->
+    <!--<span *ngSwitchCase="'leftAligned'" align="left" [md-block]="child"></span>-->
+
+    <!-- Center aligned block - Align plugin -->
+    <!--<span *ngSwitchCase="'centerAligned'" align="center" [md-block]="child"></span>-->
+
+    <!-- Right aligned block - Align plugin -->
+    <!--<span *ngSwitchCase="'rightAligned'" align="right" [md-block]="child"></span>-->
+
+    <!-- Code Block w/ syntax highlighting by Prism when enabled -->
+    <!--<pre *ngSwitchCase="'code'" [attr.data-line]="pos(child)" [language]="child.lang" [wm-prism]="child.value">
+      &lt;!&ndash; Renders the flat content when disabled &ndash;&gt;
+      <code>{{ child.value }}</code>
+    </pre>-->
+
+  </ng-container>
+
+</ng-container>

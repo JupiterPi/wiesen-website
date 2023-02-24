@@ -1,9 +1,8 @@
-import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
-import {ActivatedRoute, Event as NavigationEvent, NavigationEnd, Router} from "@angular/router";
-import {HttpClient} from "@angular/common/http";
+import {Component, OnInit} from '@angular/core';
 import {StorageService} from "../storage.service";
 import {PageStructureService} from "../page-structure.service";
-declare let marked: any;
+import {MarkdownParserService} from "../markdown-parser/markdown-parser.service";
+import {mdRoot} from "../markdown-parser/tree-types";
 
 @Component({
   selector: 'app-generic-page',
@@ -11,18 +10,21 @@ declare let marked: any;
   styleUrls: ['./generic-page.component.css']
 })
 export class GenericPageComponent implements OnInit {
-  parsedHtml = "Page loading...";
-  @ViewChild("container") container?: ElementRef;
+  rootNode?: mdRoot;
 
-  constructor(private pageStructureService: PageStructureService, private storage: StorageService) {}
+  constructor(private pageStructureService: PageStructureService, private storage: StorageService, private markdownParser: MarkdownParserService) {}
 
   ngOnInit() {
     this.pageStructureService.activatedPage.subscribe(activatedPage => {
       this.storage.getPageContent(activatedPage).subscribe(pageContent => {
-        const parsedHtml = marked.parse(`Displaying generic page **${activatedPage}**: \n\n${pageContent}`);
-        const container = this.container?.nativeElement as HTMLDivElement;
-        container.innerHTML = parsedHtml;
+        const markdown = `Displaying generic page **${activatedPage}**: \n\n${pageContent}`;
+        this.rootNode = this.markdownParser.parse(markdown);
+        console.log(this.markdownParser.parse(markdown));
       });
     });
+  }
+
+  stringify() {
+    return JSON.stringify(this.rootNode);
   }
 }

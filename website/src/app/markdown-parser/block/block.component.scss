@@ -1,0 +1,45 @@
+.wm-markdown {
+  // Forces all the elements to inline
+  &[inline] { * { display: inline; } }
+
+  // Table cells alignement
+  td {
+    &[align="left"] { text-align: left; }
+    &[align="center"] { text-align: center; }
+    &[align="right"] { text-align: right; }
+  }
+
+  // Block alignement
+  span {
+
+    // Aligns children headings and paragraphs
+    &[align="left"]  {
+      & > h1, h2, h3, h4, h5, h6, p {
+        text-align: left;
+      }
+      // Aligns children tables
+      & > table {
+        margin-right: auto;
+      }
+    }
+
+    &[align="center"] {
+      & > h1, h2, h3, h4, h5, h6, p {
+        text-align: center;
+      }
+      & > table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    &[align="right"] {
+      & > h1, h2, h3, h4, h5, h6, p {
+        text-align: right;
+      }
+      & > table {
+        margin-left: auto;
+      }
+    }
+  }
+}

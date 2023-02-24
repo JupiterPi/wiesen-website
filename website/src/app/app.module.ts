@@ -10,11 +10,17 @@ import {AngularFireStorageModule, BUCKET} from "@angular/fire/compat/storage";
 import {AngularFireModule} from "@angular/fire/compat";
 import {environment} from "../environments/environment";
 
+import { reparseFactory } from './reparse-factory';
+import {MarkdownBlock} from "./markdown-parser/block/block.component";
+import {MarkdownInline} from "./markdown-parser/inline/inline.component";
+
 @NgModule({
   declarations: [
     AppComponent,
     GenericPageComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    MarkdownBlock,
+    MarkdownInline,
   ],
     imports: [
       BrowserModule,
@@ -28,7 +34,8 @@ import {environment} from "../environments/environment";
       AngularFireStorageModule
     ],
   providers: [
-    {provide: BUCKET, useValue: "wiesen-website.appspot.com" }
+    {provide: BUCKET, useValue: "wiesen-website.appspot.com" },
+    {provide: "reparse", useFactory: reparseFactory}
   ],
   bootstrap: [AppComponent]
 })
