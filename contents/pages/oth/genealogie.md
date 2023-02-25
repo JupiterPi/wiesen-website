@@ -6,7 +6,11 @@ Sie sollten am besten mit einer Person starten, von der Sie ein Datum genau wiss
 
 Um nicht ins Archiv fahren zu müssen, kann man auch digital in den Kirchenbüchern stöbern. Der Link zur Homepage vom Archiv Zámrsk lautet: [stare.vychodoceskearchivy.cz/zamrsk](https://stare.vychodoceskearchivy.cz/zamrsk/). 
 
-Dort gehen Sie auf den ersten Link, der lautet: <br> seznam matrik, z něhož lze stahovat jednotlivé digitalizované matriční knihy. <br> Ihnen wird dann ein über zweitausendseitiges PDF angezeigt, in dem sie nach dem Ort (deutscher oder tschechischer Name ist egal) suchen können, woher ihre Ahnen kommen. 
+Dort gehen Sie auf den ersten Link, der lautet: 
+
+*seznam matrik, z něhož lze stahovat jednotlivé digitalizované matriční knihy*
+
+Ihnen wird dann ein über zweitausendseitiges PDF angezeigt, in dem sie nach dem Ort (deutscher oder tschechischer Name ist egal) suchen können, woher ihre Ahnen kommen. 
 
 Um sich auf dem PDF zurechtzufinden, gibt es verschiedene Buchstaben für Geburts-, Trauungs- und Sterbebücher:
 - N = Geburtsbücher

@@ -1,5 +1,6 @@
 # Geschichte von Böhmisch Wiesen
 
+
 ## Turbulente Anfangszeit
 
 Auch Böhmisch Wiesen, damals bei der Gründung eine Ortschaft mit Mährisch Wiesen, geht so wie Mährisch Wiesen auf die Gründungszeit Mitte des 13. Jahrhunderts unter Bischof Bruno von Schaumburg zurück. Jedoch trennten sich die Gemeinden schon im etwa 100 Jahre nach Gründung in den böhmischen und mährischen Teil auf. Die erste urkundliche Erwähnung Böhmisch Wiesens war im Jahre 1437 unter dem Namen Langendorf, als Teil des früher zum Zisterzienserkloster Königsaal Gutes Bohnau. Nach der Zerstörung des Klosters kam Böhmisch Wiesen an die Herrschaft Swojanov.
@@ -27,5 +28,4 @@ Der Regimentsstab und das erste Bataillon des K u. K 52. Linien-Infanterie-Regim
 
 Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl:
 
-> gallery
-![1](https://upload.wikimedia.org/wikipedia/commons/b/b4/Erzherzog_Franz_Karl.JPG "Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl")
+![Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl](https://upload.wikimedia.org/wikipedia/commons/b/b4/Erzherzog_Franz_Karl.JPG)

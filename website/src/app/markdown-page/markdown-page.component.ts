@@ -5,11 +5,11 @@ import {MarkdownParserService} from "../markdown-parser/markdown-parser.service"
 import {mdRoot} from "../markdown-parser/tree-types";
 
 @Component({
-  selector: 'app-generic-page',
-  templateUrl: './generic-page.component.html',
-  styleUrls: ['./generic-page.component.css']
+  selector: 'app-markdown-page',
+  template: "<div [md-block]=\"rootNode\"></div>",
+  styleUrls: ['./markdown-page.component.css']
 })
-export class GenericPageComponent implements OnInit {
+export class MarkdownPageComponent implements OnInit {
   rootNode?: mdRoot;
 
   constructor(private pageStructureService: PageStructureService, private storage: StorageService, private markdownParser: MarkdownParserService) {}
@@ -17,14 +17,8 @@ export class GenericPageComponent implements OnInit {
   ngOnInit() {
     this.pageStructureService.activatedPage.subscribe(activatedPage => {
       this.storage.getPageContent(activatedPage).subscribe(pageContent => {
-        const markdown = `Displaying generic page **${activatedPage}**: \n\n${pageContent}`;
-        this.rootNode = this.markdownParser.parse(markdown);
-        console.log(this.markdownParser.parse(markdown));
+        this.rootNode = this.markdownParser.parse(pageContent);
       });
     });
-  }
-
-  stringify() {
-    return JSON.stringify(this.rootNode);
   }
 }

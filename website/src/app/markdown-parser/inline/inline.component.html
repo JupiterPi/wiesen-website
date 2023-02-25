@@ -8,44 +8,17 @@
     <!-- Strong -->
     <strong *ngSwitchCase="'strong'" [md-inline]="child"></strong>
 
-    <!-- Delete -->
-    <del *ngSwitchCase="'delete'" [md-inline]="child"></del>
-
-    <!-- Inline Code -->
-    <code *ngSwitchCase="'inlineCode'">{{ _T(child.value) }}</code>
-
-    <!-- Sub-script Super-script plugin -->
-    <sub *ngSwitchCase="'sub'" [md-inline]="child"></sub>
-
-    <!-- Super-script Super-script plugin -->
-    <sup *ngSwitchCase="'sup'" [md-inline]="child"></sup>
-
-    <!-- Footnote Reference -->
-    <!--<ng-container *ngSwitchCase="'footnoteReference'">
-      <sup *ngIf="tree.footnoteIndex(child) as index">[{{ index }}]</sup>
-    </ng-container>-->
-
     <!-- Plain text -->
-    <ng-container *ngSwitchCase="'text'">{{ _T(child.value) }}</ng-container>
+    <ng-container *ngSwitchCase="'text'">{{ child.value }}</ng-container>
 
     <!-- Line Break -->
     <br *ngSwitchCase="'break'" />
 
     <!-- Link -->
-    <!--<a *ngSwitchCase="'link'" [href]="child.url" (click)="navigate(child.url)" [md-inline]="child"></a>-->
-
-    <!-- Link Reference -->
-    <!--<ng-container *ngSwitchCase="'linkReference'">
-      <a *ngIf="tree.definition(child) as def" [href]="def.url" (click)="navigate(def.url)" [md-inline]="child"></a>
-    </ng-container>-->
+    <a *ngSwitchCase="'link'" [href]="child.url" (click)="navigate($event, child.url)" [md-inline]="child"></a>
 
     <!-- Image -->
-    <img *ngSwitchCase="'image'" [src]="child.url" [title]="_T(child.title)" [alt]="_T(child.alt)" />
-
-    <!-- Image Reference -->
-    <!--<ng-container *ngSwitchCase="'imageReference'">
-      <img *ngIf="tree.definition(child) as def" [src]="def.url" [title]="_T(def.title)" [alt]="_T(def.alt)" />
-    </ng-container>-->
+    <img *ngSwitchCase="'image'" [src]="child.url" [title]="child.alt" [alt]="child.alt" />
 
   </ng-container>
 

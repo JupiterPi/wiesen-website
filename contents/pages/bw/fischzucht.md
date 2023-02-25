@@ -20,7 +20,7 @@ Zu Karl Weigls Forellenzucht schrieb er:
 > 
 > In der Nähe von Wiesen besteht also ein beschlossenes, scharf begrenztes Fischereigebiet ohne Hochwasser und Überschwemmungen, in denen die Edelfischzucht wunderbar gedeihen muss. Leider hat man früher aus diesem unbezahlbaren Wasserlauf nur geerntet, oft recht spärlich, weil die Natur den Abgang durch Raubfischerei nicht zu ersetzen vermochte.
 
-![1](/postcards/card-02-front.png "Postkarte 2")
+![Postkarte 2](/postcards/card-02-front.png)
 
 Nach diesem ausführlichen Bericht kann angenommen werden, dass Karl Weigl ab 1888 mit der Fischzucht begonnen hatte. Dies lässt sich aus der noch im Dezember bestehenden Unerfahrenheit desselben ablesen. Außerdem kann man annehmen, dass Karl Weigl seine Bruttröge und Teile seiner Anlage bei seiner Schwägerin Adelheid Weigl (Böhmisch Wiesen Nr. 20) stehen hatte.
 

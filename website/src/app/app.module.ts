@@ -3,7 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
 import {RouterModule} from "@angular/router";
-import {GenericPageComponent} from './generic-page/generic-page.component';
+import {MarkdownPageComponent} from './markdown-page/markdown-page.component';
 import {HttpClientModule} from "@angular/common/http";
 import {ContactPageComponent} from './contact-page/contact-page.component';
 import {AngularFireStorageModule, BUCKET} from "@angular/fire/compat/storage";
@@ -17,7 +17,7 @@ import {MarkdownInline} from "./markdown-parser/inline/inline.component";
 @NgModule({
   declarations: [
     AppComponent,
-    GenericPageComponent,
+    MarkdownPageComponent,
     ContactPageComponent,
     MarkdownBlock,
     MarkdownInline,
@@ -28,7 +28,7 @@ import {MarkdownInline} from "./markdown-parser/inline/inline.component";
       RouterModule.forRoot([
         {path: "", redirectTo: "oth/home", pathMatch: "full"},
         {path: "oth/kontakt", component: ContactPageComponent},
-        {path: ":section/:page", component: GenericPageComponent}
+        {path: ":section/:page", component: MarkdownPageComponent}
       ]),
       AngularFireModule.initializeApp(environment.firebase),
       AngularFireStorageModule

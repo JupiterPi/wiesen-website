@@ -6,9 +6,9 @@ Hier seien nun die Ergebnisse von Carl Lick dargestellt, die wir aus dem Buch �
 
 Das Dorf Brüsau, welches im Laufe der nachstehenden Jahrhunderte zum Markt und schließlich zur Stadt aufsteigen wird, geht auf eine Gründung durch den Bischof von Olmütz, Bruno von Schaumburg (um 1205-1281), um die Mitte des 13. Jahrhunderts zurück. Erste schriftliche Nennung erfolgt 26. Mai 1296 in einem Brief des Königs Wenzel von Böhmen Ansprüche auf den „Distrikt Brezovia“ erhebt, welches jedoch im Besitz des Bistum Olmütz ist. Schließlich beugt sich der gottesfürchtige König untertänigst und der „Distrikt“ verbleibt der Kirche. Die Dörfer, die König Wenzel zu diesem gehörigen „Distrikt“ jedoch nicht mit Namen nennt, tauchen in einer Urkunde aus der Zeit Bischof Konrads (1318-1326) auf, also nur zwei Jahrzehnte später. Jedoch suchen wir nach den Namen Mußlaus und Mährisch Wiesens vergeblich, sodass wir zu der Erkenntnis kommen müssen, dass die beiden Ortschaften später gegründet wurden. Wahrscheinlich wird es, wie bei Vierzighuben (untertänig zu Zwittau), eine Gründung ausgehend vom übergeordneten Grundherren sein, in unserem Falle der Stadt Brüsau. Die Gründung wird also noch im 14. Jahrhundert geschehen sein.
 
-![1](https://upload.wikimedia.org/wikipedia/commons/2/2f/Biskup_Bruno_ze_Schauenburku.gif "Bischof Bruno von Schaumburg (Schauenberg)")
-![2](/pic/bischof-nikolaus-von-olmuetz-wappen.png "Wappen des Bischof Nikolaus von Riesenburg")
-![3](https://upload.wikimedia.org/wikipedia/commons/8/88/Thurzo.jpg "Bischof Stanislaus Thurzo")
+![Bischof Bruno von Schaumburg (Schauenberg)](https://upload.wikimedia.org/wikipedia/commons/2/2f/Biskup_Bruno_ze_Schauenburku.gif)
+![Wappen des Bischof Nikolaus von Riesenburg](/pic/bischof-nikolaus-von-olmuetz-wappen.png)
+![Bischof Stanislaus Thurzo](https://upload.wikimedia.org/wikipedia/commons/8/88/Thurzo.jpg)
 
 
 ## Rechte und Pflichten
@@ -21,7 +21,7 @@ Es dauerte fast ein Jahrhundert, bis Bischof Stanislaus Thurzo (1470-1540) eine 
 
 Im Jahre 1581 wurde der Bürgerschaft von Brüsau das freie Brauen von Bier, sowie der Verkauf auch in den beiden zugehörigen Dörfern erlaubt. Jedoch sollten die Dörfer nicht bei den „Konkurrenten“, also bei anderen Gemeinden zechen und Bier trinken. So verhielt es sich auch mit dem Verkauf und Ankauf von Salz.
 
-![1](/pic/jan_zizka.jpg "Jan Žižka")
+![Jan Žižka](/pic/jan_zizka.jpg)
 
 Im selben Jahr zählte Mährisch Wiesen 9 Bauern, die zu Brüsau untertan waren und zu zinsen hatten:
 - *Jacob andresku*
@@ -29,21 +29,22 @@ Im selben Jahr zählte Mährisch Wiesen 9 Bauern, die zu Brüsau untertan waren 
 - *Ffaltas*
 - *Girzik lahoz*
 - *Andres Krensa*
-- *Ffaltas* hält in Mußlau 3 Ruten (Flächenmaß)<br>Da die tschechischen Amtsschreiber kein Deutsch verstanden, schrieben sie die ihnen genannten Namen, meist in der Mundart gesprochen, so auf, wie sie sie verstanden. So wundert es einen nicht, dass die Namen hier kaum mit den Namen in der Neuzeit übereinstimmen. Die Nachnamen, die mit Berufen zu tun hatten, wie z. B. Müller, wurden einfach ins Tschechische übersetzt. „ss“ wird „sch“ gesprochen. 
+- *Ffaltas* hält in Mußlau 3 Ruten (Flächenmaß)  
+  Da die tschechischen Amtsschreiber kein Deutsch verstanden, schrieben sie die ihnen genannten Namen, meist in der Mundart gesprochen, so auf, wie sie sie verstanden. So wundert es einen nicht, dass die Namen hier kaum mit den Namen in der Neuzeit übereinstimmen. Die Nachnamen, die mit Berufen zu tun hatten, wie z. B. Müller, wurden einfach ins Tschechische übersetzt. „ss“ wird „sch“ gesprochen. 
 
 > **Auszug aus dem Werk „Der Hershaft Mirau und Zwittau kurze ausgezogenes Urbari Register“ aus dem Jahre 1650**
 > 
-> <u>Ihn dem Dorff Dlauhey (Mährisch Wiesen)</u>
+> Ihn dem Dorff Dlauhey (Mährisch Wiesen)
 > 
-> Angeseßene ---- 4
-> Derer so Acker haben: -----------------------------------------------------------------4
-> Haben Zins von die Robott zue Georgi (Georgitag am 24/23 April): -----------1 f
-> Ittem bey dem Termin Wenzeslai deßen auch: ------------------------------------ 1 f
-> Zins Khorn (Korn): ------------------------------4 Metzen (Getreidemaß; regional sehr unterschiedlich. In österreich 1 Metzen=75 Liter)
-> Zins habern (Zins haben): ----------------------------------------------------4 Metzen
-> Robott habern (Robot haben---- --2 Metzen (1 Metzen als Ackermaß=1919 m² )
-> Hüener (Hühner): ------------------------------------------------------------------------8
-> Ayer (Eier): ------------------------------------------------------------------------------24
+> Angeseßene ---- 4  
+> Derer so Acker haben: ---- 4  
+> Haben Zins von die Robott zue Georgi (Georgitag am 24/23 April): ---- 1 f  
+> Ittem bey dem Termin Wenzeslai deßen auch: ---- 1 f  
+> Zins Khorn (Korn): ---- 4 Metzen (Getreidemaß; regional sehr unterschiedlich. In österreich 1 Metzen=75 Liter)  
+> Zins habern (Zins haben): ---- 4 Metzen  
+> Robott habern (Robot haben ---- 2 Metzen (1 Metzen als Ackermaß=1919 m² )  
+> Hüener (Hühner): ---- 8  
+> Ayer (Eier): ---- 24  
 > Diese Leuthe gehören zur Briese (Brüsau), sindt aber mit allen Roboten, wie andere Derfer der Herschaft Zwitau thun, der Obrigkeit verbunden.
 
 In diesem Beispiel werden die Lebensverhältnisse der einfachen Bevölkerung von Wiesen in der frühen Neuzeit sehr deutlich. Zweimal im Jahr wurden Abgaben fällig, die der Stadt Brüsau zugute kamen, da diese die Grundherrschaft über Mährisch Wiesen und Mußlau besaß.
@@ -70,7 +71,7 @@ Einen zweiten Schutzbrief erhielt die Stadt vom Oberkommandant Linnardt Torstens
 > 
 > Signatur: im Feldlager vor Brünn am 31. Juli 1645
 > 
-> <img src="/pic/signatur-torstenson.png" height="100px">
+> ![Signatur des Oberkommandants Linnardt Torstenson](/pic/signatur-torstenson.png)
 
 ![1](https://upload.wikimedia.org/wikipedia/commons/d/da/Lennart_Torstenson_%28ur_Svenska_Familj-Journalen%29.png "Oberkommandant Linnardt Torstenson")
 

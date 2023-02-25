@@ -1,5 +1,6 @@
 # Der Ort Mährisch Wiesen
 
+
 ## Die Mährisch-Wiesener Kapelle sowie der Bildstock der Dreifaltigkeit
 
 Von ihr zeugt heute nichts mehr, jedoch erfahren wir in Viktor Hegers Bericht über Böhmisch-Wiesen folgendes: „Den Berichtern erscheint abschließend erwähnenswert, daß am 07.07. des Jahres das Fest der Landesapostel und patrone des Landes Mähren „Cyrilus und Methodius“ festlich gefeiert wurde. Auf der Anhöhe über dem Ort Mähr. Wiesen am Feldrain der ehemaligen Landwirtschaft Müller – später Fa. Löw Beers Söhne – nahe der Kaiserstraße, kennzeichnet ein lateinisches Kreuz (Bischofskreuz) sowie eine gemauerte Bildsäule mit dem Bild der hl. Dreifaltigkeit den Predigort des Jahres 869 (wahrscheinlich 1869 gemeint). Dieser Gedächtnisort wurde im Volksmund „Kapelle“ genannt, wohl darauf zurückzuführen, daß hier in der Vorzeit eine gestanden haben muß.“
@@ -31,10 +32,11 @@ Bereits in der Volkszählung 1914 erscheint als Gastwirt sein Sohn (?) Eduard La
 
 ## Die großen Bauernhöfe Nr. 2, Nr. 3, Nr. 4 und Nr. 5
 
-=======
+...
 
 
 # Der Ort Mährisch Wiesen
+
 
 ## Die Mährisch-Wiesener Kapelle sowie der Bildstock der Dreifaltigkeit
 

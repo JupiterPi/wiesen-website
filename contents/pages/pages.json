@@ -2,6 +2,13 @@
   "pages": [
     [
       {
+        "id": "oth/test",
+        "title": "Test",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
         "id": "oth/home",
         "title": "Home",
         "type": "markdown"
@@ -21,7 +28,7 @@
       {
         "id": "mw/volkszaehlung",
         "title": "Volkszählung",
-        "type": "markdown"
+        "type": "custom"
       }
     ],
     [
@@ -38,6 +45,16 @@
       {
         "id": "bw/volkszaehlung",
         "title": "Volkszählung",
+        "type": "custom"
+      },
+      {
+        "id": "bw/volksschule-boehmisch-wiesen",
+        "title": "Volksschule Böhmisch Wiesen",
+        "type": "markdown"
+      },
+      {
+        "id": "bw/fischzucht",
+        "title": "Fischzucht",
         "type": "markdown"
       }
     ],
