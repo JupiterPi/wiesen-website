@@ -12,6 +12,7 @@ import {environment} from "../environments/environment";
 import { reparseFactory } from './markdown-parser/reparse-factory';
 import {MarkdownBlock} from "./markdown-parser/block/block.component";
 import {MarkdownInline} from "./markdown-parser/inline/inline.component";
+import { ImageComponent } from './markdown-parser/image/image.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import {MarkdownInline} from "./markdown-parser/inline/inline.component";
     MarkdownPageComponent,
     MarkdownBlock,
     MarkdownInline,
+    ImageComponent,
   ],
     imports: [
       BrowserModule,

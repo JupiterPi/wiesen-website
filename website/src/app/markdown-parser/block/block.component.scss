@@ -1,45 +1,17 @@
-.wm-markdown {
-  // Forces all the elements to inline
-  &[inline] { * { display: inline; } }
+$grey: #d3d3d3;
 
-  // Table cells alignement
-  td {
-    &[align="left"] { text-align: left; }
-    &[align="center"] { text-align: center; }
-    &[align="right"] { text-align: right; }
+.blockquote {
+  display: flex;
+  flex-direction: row;
+
+  .blockquote-bar {
+    flex: 0 0 5px;
+    margin-right: 15px;
+    background-color: $grey;
+    border-radius: 100vw;
   }
+}
 
-  // Block alignement
-  span {
-
-    // Aligns children headings and paragraphs
-    &[align="left"]  {
-      & > h1, h2, h3, h4, h5, h6, p {
-        text-align: left;
-      }
-      // Aligns children tables
-      & > table {
-        margin-right: auto;
-      }
-    }
-
-    &[align="center"] {
-      & > h1, h2, h3, h4, h5, h6, p {
-        text-align: center;
-      }
-      & > table {
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
-
-    &[align="right"] {
-      & > h1, h2, h3, h4, h5, h6, p {
-        text-align: right;
-      }
-      & > table {
-        margin-left: auto;
-      }
-    }
-  }
+hr {
+  border: 1px solid $grey;
 }

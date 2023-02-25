@@ -65,15 +65,18 @@ Dieser Brief ist hier beigefügt, nach Pater Karl Bilek:
 Einen zweiten Schutzbrief erhielt die Stadt vom Oberkommandant Linnardt Torstenson am 31.7.1645. Ich erlaube mir, ihn zu transkribieren:
 
 > Der Königl. Majestät und Krone Schwedens
-> Wie auch deren Konföderation … Reichsrats-General und Feldmarschall in Deutschland, auch Generalgouverneur in Pommern<br>
+>
+> Wie auch deren Konföderation … Reichsrats-General und Feldmarschall in Deutschland, auch Generalgouverneur in Pommern
+>
 > Linnhardt Torstenson
-> Demnach im Namen des Höchsten meldet Ihrer königlichen Majestät und Krone Schwedens/von hochgeachteter Seiner Exzellenz, dass Städtlein und Markt Brüsau nebst deren angehörigen Dörfern  mit aller Pertinentien (Zubehör und dazugehörigen Sachen, rechtlich gesehen) In der sonderbaren Schutz/Schirm und Protection (lateinisch für Schutz) und angenommen worden/ massen solches Kraftes beschützet: Als befehlen hiermit General Seiner Exzellenz allen unter dero Kommando sich befindender hohen und niedrigen Offizieren und Befehlshaber wie auch sämtlichen Soldaten zu Rosse und Fuße, dass sie obenerwähntes Städtlein Zwittau und Markt Brüsau mit den dazugehörigen Dörfern samt allen Pertinentien hierfür ruhig unperturbiret (lat. Nicht in Unordnung bringen), sein und bleiben lassen/ und hier wieder unter etwas Schein etwas geschehen möchte, im geringsten nicht pressieren, betrüben, noch beleidigen, viel weniger mit gegenseitiger Einquartierung und Einlogierung (sich eine Unterkunft verschaffen) selbst angemaßter Contrition (denglisch für Reue), Brandschatzung oder anderer Erregung (öffentlichen ärgernisses), Brand, Plünderung, Abnahme der Pferde, groß: und keinen Viehes, Getreide, noch anderer Insolentien (lateinisch für Ungewohnheiten) und Gewalttätigkeiten investieren und beschweren der diese „Salva Guardia“ und Schutzbrief in irgendeiner Weise violieren (verstoßen), sondern selbige oder deren via murte Copy im alle Wege bei Vermeidung schwerer Verantwortung und … auch nach Befinden des Verbrechens unausbleiblicher Leibes und Lebens Strafe gebührlich respektieren und in beharrliche Obacht unverbrüchlich halten wollen und sollen. Wonach sich an jeder zu richten und vor … und Schulden zu hüten wissen wird. 
-> 
+>
+> Demnach im Namen des Höchsten meldet Ihrer königlichen Majestät und Krone Schwedens/von hochgeachteter Seiner Exzellenz, dass Städtlein und Markt Brüsau nebst deren angehörigen Dörfern  mit aller Pertinentien (Zubehör und dazugehörigen Sachen, rechtlich gesehen) In der sonderbaren Schutz/Schirm und Protection (lateinisch für Schutz) und angenommen worden/ massen solches Kraftes beschützet: Als befehlen hiermit General Seiner Exzellenz allen unter dero Kommando sich befindender hohen und niedrigen Offizieren und Befehlshaber wie auch sämtlichen Soldaten zu Rosse und Fuße, dass sie obenerwähntes Städtlein Zwittau und Markt Brüsau mit den dazugehörigen Dörfern samt allen Pertinentien hierfür ruhig unperturbiret (lat. Nicht in Unordnung bringen), sein und bleiben lassen/ und hier wieder unter etwas Schein etwas geschehen möchte, im geringsten nicht pressieren, betrüben, noch beleidigen, viel weniger mit gegenseitiger Einquartierung und Einlogierung (sich eine Unterkunft verschaffen) selbst angemaßter Contrition (denglisch für Reue), Brandschatzung oder anderer Erregung (öffentlichen ärgernisses), Brand, Plünderung, Abnahme der Pferde, groß: und keinen Viehes, Getreide, noch anderer Insolentien (lateinisch für Ungewohnheiten) und Gewalttätigkeiten investieren und beschweren der diese „Salva Guardia“ und Schutzbrief in irgendeiner Weise violieren (verstoßen), sondern selbige oder deren via murte Copy im alle Wege bei Vermeidung schwerer Verantwortung und … auch nach Befinden des Verbrechens unausbleiblicher Leibes und Lebens Strafe gebührlich respektieren und in beharrliche Obacht unverbrüchlich halten wollen und sollen. Wonach sich an jeder zu richten und vor … und Schulden zu hüten wissen wird.   
+>
 > Signatur: im Feldlager vor Brünn am 31. Juli 1645
-> 
+>
 > ![Signatur des Oberkommandants Linnardt Torstenson](/signatur-torstenson.png)
 
-![1](https://upload.wikimedia.org/wikipedia/commons/d/da/Lennart_Torstenson_%28ur_Svenska_Familj-Journalen%29.png "Oberkommandant Linnardt Torstenson")
+![Oberkommandant Linnardt Torstenson](https://upload.wikimedia.org/wikipedia/commons/d/da/Lennart_Torstenson_%28ur_Svenska_Familj-Journalen%29.png)
 
 
 ## Das große Unwetter vom 18.5.1798

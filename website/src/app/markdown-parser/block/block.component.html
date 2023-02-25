@@ -26,7 +26,10 @@
     </ng-container>
 
     <!-- Blockquotes -->
-    <blockquote *ngSwitchCase="'blockquote'" [md-block]="child"></blockquote>
+    <div *ngSwitchCase="'blockquote'" class="blockquote">
+      <div class="blockquote-bar"></div>
+      <div [md-block]="child"></div>
+    </div>
 
     <!-- Horizontal Rule -->
     <hr *ngSwitchCase="'thematicBreak'"/>

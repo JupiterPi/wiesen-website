@@ -18,7 +18,7 @@
     <a *ngSwitchCase="'link'" [href]="child.url" (click)="navigate($event, child.url)" [md-inline]="child"></a>
 
     <!-- Image -->
-    <img *ngSwitchCase="'image'" [src]="imageUrls.get(child.url) | async" [title]="child.alt" [alt]="child.alt" />
+    <app-image *ngSwitchCase="'image'" [src]="imageUrls.get(child.url) | async" [alt]="child.alt"></app-image>
 
   </ng-container>
 

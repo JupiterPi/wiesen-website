@@ -24,7 +24,7 @@ export class MarkdownInline {
     if (url.startsWith("/")) {
       this.router.navigate(url.split("/"));
     } else {
-      window.location.href = url;
+      window.open(url);
     }
   }
 
