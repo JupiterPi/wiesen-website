@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {BehaviorSubject} from "rxjs";
+import {Observable} from "rxjs";
 import {PageStructureService} from "./page-structure.service";
 import {Page} from "./storage.service";
 
@@ -9,11 +9,11 @@ import {Page} from "./storage.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  pageStructure: BehaviorSubject<Page[][]>;
-  activatedPage: BehaviorSubject<string>;
+  pageStructure: Observable<Page[][]>;
+  activatedPage: Observable<string>;
 
   constructor(private pageStructureService: PageStructureService) {
-    this.pageStructure = this.pageStructureService.pageStructure;
-    this.activatedPage = this.pageStructureService.activatedPage;
+    this.pageStructure = this.pageStructureService.getPageStructure();
+    this.activatedPage = this.pageStructureService.getActivatedPage();
   }
 }

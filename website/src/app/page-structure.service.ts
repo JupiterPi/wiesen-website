@@ -1,18 +1,18 @@
 import { Injectable } from '@angular/core';
-import {BehaviorSubject} from "rxjs";
+import {BehaviorSubject, filter, Observable} from "rxjs";
 import {Page, StorageService} from "./storage.service";
 import {Event as NavigationEvent, NavigationEnd, Router} from "@angular/router";
+import {isNonNull} from "./util";
 
 @Injectable({
   providedIn: 'root'
 })
 export class PageStructureService {
-  pageStructure = new BehaviorSubject<Page[][]>([]);
-  activatedPage = new BehaviorSubject<string>("");
+  private pageStructure = new BehaviorSubject<Page[][]>([]);
+  private activatedPage = new BehaviorSubject<string|null>(null);
 
   constructor(private storage: StorageService, private router: Router) {
     this.storage.getPageStructure().subscribe(pageStructure => {
-      console.log(pageStructure);
       this.pageStructure.next(pageStructure);
     });
 
@@ -31,5 +31,13 @@ export class PageStructureService {
 
       }
     });
+  }
+
+  getPageStructure(): Observable<Page[][]> {
+    return this.pageStructure.pipe(filter(isNonNull));
+  }
+
+  getActivatedPage(): Observable<string> {
+    return this.activatedPage.pipe(filter(isNonNull));
   }
 }

@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {AngularFireStorage} from "@angular/fire/compat/storage";
 import {HttpClient} from "@angular/common/http";
-import {Observable} from "rxjs";
+import {first, Observable} from "rxjs";
 
 export interface Page {
   id: string;
@@ -30,10 +30,13 @@ export class StorageService {
   getPageContent(pageId: string): Observable<string> {
     return new Observable<string>(subscriber => {
       this.storage.ref("contents/pages/" + pageId + ".md").getDownloadURL().subscribe(downloadUrl => {
-        this.http.get(downloadUrl, {responseType: "text"}).subscribe(pageContent => {
-          subscriber.next(pageContent);
-        });
+        this.http.get(downloadUrl, {responseType: "text"}).subscribe(subscriber);
       });
     });
+  }
+
+  getImageURL(image: string): Observable<string> {
+    if (!image.startsWith("/")) image = "/" + image;
+    return this.storage.ref("contents/pic" + image).getDownloadURL().pipe(first());
   }
 }

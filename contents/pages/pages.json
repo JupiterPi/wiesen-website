@@ -2,13 +2,6 @@
   "pages": [
     [
       {
-        "id": "oth/test",
-        "title": "Test",
-        "type": "markdown"
-      }
-    ],
-    [
-      {
         "id": "oth/home",
         "title": "Home",
         "type": "markdown"
@@ -28,7 +21,7 @@
       {
         "id": "mw/volkszaehlung",
         "title": "Volkszählung",
-        "type": "custom"
+        "type": "markdown"
       }
     ],
     [
@@ -45,7 +38,7 @@
       {
         "id": "bw/volkszaehlung",
         "title": "Volkszählung",
-        "type": "custom"
+        "type": "markdown"
       },
       {
         "id": "bw/volksschule-boehmisch-wiesen",
@@ -67,7 +60,7 @@
       {
         "id": "oth/kontakt",
         "title": "Kontakt",
-        "type": "custom"
+        "type": "markdown"
       }
     ]
   ]

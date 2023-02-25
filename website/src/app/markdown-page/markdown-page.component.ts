@@ -6,8 +6,7 @@ import {mdRoot} from "../markdown-parser/tree-types";
 
 @Component({
   selector: 'app-markdown-page',
-  template: "<div [md-block]=\"rootNode\"></div>",
-  styleUrls: ['./markdown-page.component.css']
+  templateUrl: 'markdown-page.component.html'
 })
 export class MarkdownPageComponent implements OnInit {
   rootNode?: mdRoot;
@@ -15,7 +14,7 @@ export class MarkdownPageComponent implements OnInit {
   constructor(private pageStructureService: PageStructureService, private storage: StorageService, private markdownParser: MarkdownParserService) {}
 
   ngOnInit() {
-    this.pageStructureService.activatedPage.subscribe(activatedPage => {
+    this.pageStructureService.getActivatedPage().subscribe(activatedPage => {
       this.storage.getPageContent(activatedPage).subscribe(pageContent => {
         this.rootNode = this.markdownParser.parse(pageContent);
       });

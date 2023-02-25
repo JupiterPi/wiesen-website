@@ -1,6 +1,9 @@
 import {Component, Input} from '@angular/core';
 import {mdPhrasingContent} from '../tree-types';
 import {Router} from "@angular/router";
+import {StorageService} from "../../storage.service";
+import {BehaviorSubject, Observable} from "rxjs";
+import {CacheMap} from "../../util";
 
 @Component({
   selector: '[md-inline]',
@@ -10,7 +13,7 @@ import {Router} from "@angular/router";
 export class MarkdownInline {
   @Input("md-inline") node: mdPhrasingContent | undefined;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router, private storage: StorageService) {}
 
   get children(): mdPhrasingContent[] {
     return (this.node != undefined && "children" in this.node) ? this.node.children ?? [] : [];
@@ -25,4 +28,9 @@ export class MarkdownInline {
     }
   }
 
+  imageUrls = new CacheMap<string, Observable<string>>(src => {
+    return src.startsWith("/")
+      ? this.storage.getImageURL(src)
+      : new BehaviorSubject(src);
+  });
 }
