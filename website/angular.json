@@ -111,5 +111,7 @@
       }
     }
   },
-  "defaultProject": "wiesen-website"
+  "cli": {
+    "analytics": "8e1d0d41-4f6e-43b7-8df7-762e2155c01b"
+  }
 }
