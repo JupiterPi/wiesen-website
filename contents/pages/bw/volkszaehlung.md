@@ -1,3 +1,5 @@
-# Volkszählung in Böhmisch Wiesen
+# Volkszählung Böhmisch Wiesen
 
-Kommt bald...
+Hier die Volkszählung von Böhmisch Wiesen 1938 (*UNVOLLSTÄNDIG - IN ARBEIT*):
+
+> table volkszaehlung-bw

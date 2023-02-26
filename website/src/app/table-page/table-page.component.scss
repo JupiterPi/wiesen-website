@@ -1,0 +1,40 @@
+button {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-family: 'Roboto Slab', serif;
+  cursor: pointer;
+
+  box-shadow: 0 0 3px 2px #007e00;
+}
+
+table {
+  border-collapse: collapse;
+
+  tr {
+    td {
+      border: solid black 1px;
+      padding: 7px;
+
+      &:first-child {
+        border-left: none;
+      }
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+
+    &:first-child td {
+      border-top: none;
+      font-weight: bold;
+    }
+
+    &:last-child td {
+      border-bottom: none;
+    }
+  }
+
+  margin-bottom: 10px;
+}

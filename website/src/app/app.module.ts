@@ -13,6 +13,8 @@ import { reparseFactory } from './markdown-parser/reparse-factory';
 import {MarkdownBlock} from "./markdown-parser/block/block.component";
 import {MarkdownInline} from "./markdown-parser/inline/inline.component";
 import { ImageComponent } from './markdown-parser/image/image.component';
+import { TablePageComponent } from './table-page/table-page.component';
+import {FileSaverModule} from "ngx-filesaver";
 
 @NgModule({
   declarations: [
@@ -21,6 +23,7 @@ import { ImageComponent } from './markdown-parser/image/image.component';
     MarkdownBlock,
     MarkdownInline,
     ImageComponent,
+    TablePageComponent,
   ],
     imports: [
       BrowserModule,
@@ -30,7 +33,8 @@ import { ImageComponent } from './markdown-parser/image/image.component';
         {path: ":section/:page", component: MarkdownPageComponent}
       ]),
       AngularFireModule.initializeApp(environment.firebase),
-      AngularFireStorageModule
+      AngularFireStorageModule,
+      FileSaverModule
     ],
   providers: [
     {provide: BUCKET, useValue: "wiesen-website.appspot.com" },

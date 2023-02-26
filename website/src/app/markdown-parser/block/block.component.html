@@ -26,10 +26,22 @@
     </ng-container>
 
     <!-- Blockquotes -->
-    <div *ngSwitchCase="'blockquote'" class="blockquote">
-      <div class="blockquote-bar"></div>
-      <div [md-block]="child"></div>
-    </div>
+    <ng-container *ngSwitchCase="'blockquote'" [ngSwitch]="getBlockquoteType(child)">
+
+      <!-- (as table) -->
+      <ng-container *ngSwitchCase="'table'">
+        <app-table-page [table-id]="getBlockquoteTextContent(child).substring('table '.length)"></app-table-page>
+      </ng-container>
+
+      <!-- (normal) -->
+      <ng-container *ngSwitchDefault>
+        <div class="blockquote">
+          <div class="blockquote-bar"></div>
+          <div [md-block]="child"></div>
+        </div>
+      </ng-container>
+
+    </ng-container>
 
     <!-- Horizontal Rule -->
     <hr *ngSwitchCase="'thematicBreak'"/>

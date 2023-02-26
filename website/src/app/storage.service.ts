@@ -42,9 +42,13 @@ export class StorageService {
 
   getTable(tableId: string): Observable<string> {
     return new Observable(subscriber => {
-      this.storage.ref("contents/tables/" + tableId + ".csv").getDownloadURL().subscribe(downloadUrl => {
+      this.getTableDownloadUrl(tableId).subscribe(downloadUrl => {
         this.http.get(downloadUrl, {responseType: "text"}).subscribe(subscriber);
       });
     });
+  }
+
+  getTableDownloadUrl(tableId: string) {
+    return this.storage.ref("contents/tables/" + tableId + ".csv").getDownloadURL();
   }
 }

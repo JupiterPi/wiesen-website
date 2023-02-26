@@ -1,3 +1,5 @@
-# Volkszählung in Mährisch Wiesen
+# Volkszählung Mährisch Wiesen
 
-Kommt bald...
+Hier die Volkszählung von Mährisch Wiesen 1938:
+
+> table volkszaehlung-mw
