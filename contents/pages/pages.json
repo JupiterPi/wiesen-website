@@ -53,8 +53,37 @@
     ],
     [
       {
+        "id": "oth/bruesauer-friedhof",
+        "title": "Brüsauer Friedhof",
+        "type": "markdown"
+      },
+      {
+        "id": "oth/bruesauer-persoenlichkeiten",
+        "title": "Brüsauer Persönlichkeiten",
+        "type": "markdown"
+      },
+      {
+        "id": "oth/bruesau-galerie",
+        "title": "Brüsau Galerie",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
+        "id": "oth/postkarten",
+        "title": "Postkarten",
+        "type": "markdown"
+      }
+    ],
+    [
+      {
         "id": "oth/genealogie",
         "title": "Genealogie",
+        "type": "markdown"
+      },
+      {
+        "id": "oth/links",
+        "title": "Links",
         "type": "markdown"
       },
       {

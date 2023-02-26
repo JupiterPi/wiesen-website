@@ -7,7 +7,12 @@ import {Component, Input} from '@angular/core';
 })
 export class ImageComponent {
   @Input("src") imageUrl?: string;
+  @Input("src-thumbnail") thumbnailUrl?: string;
   @Input("alt") alternativeText?: string;
+
+  get effectiveImageUrl(): string | undefined {
+    return this.thumbnailUrl ?? this.imageUrl;
+  }
 
   openImage() {
     if (this.imageUrl != null) window.open(this.imageUrl);

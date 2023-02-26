@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {mdPhrasingContent} from '../tree-types';
+import {mdImage, mdPhrasingContent} from '../tree-types';
 import {Router} from "@angular/router";
 import {StorageService} from "../../storage.service";
 import {BehaviorSubject, Observable} from "rxjs";
@@ -25,6 +25,15 @@ export class MarkdownInline {
       this.router.navigate(url.split("/"));
     } else {
       window.open(url);
+    }
+  }
+
+  getThumbnailUrl(img: mdImage): Observable<string | undefined> {
+    const title = img.title;
+    if (title != undefined) {
+      return this.imageUrls.get(title);
+    } else {
+      return new BehaviorSubject(undefined);
     }
   }
 
