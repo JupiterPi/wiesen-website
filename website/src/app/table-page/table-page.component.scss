@@ -9,8 +9,15 @@ button {
   box-shadow: 0 0 3px 2px #007e00;
 }
 
+#table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
 table {
   border-collapse: collapse;
+  margin-bottom: 10px;
+  width: content-box;
 
   tr {
     td {
@@ -35,6 +42,4 @@ table {
       border-bottom: none;
     }
   }
-
-  margin-bottom: 10px;
 }

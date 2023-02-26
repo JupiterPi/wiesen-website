@@ -1,7 +1,9 @@
 <button (click)="downloadTable()">DOWNLOAD</button>
 
-<table>
-  <tr *ngFor="let row of tableContent">
-    <td *ngFor="let cell of row">{{cell}}</td>
-  </tr>
-</table>
+<div id="table-container">
+  <table>
+    <tr *ngFor="let row of tableContent">
+      <td *ngFor="let cell of row">{{cell}}</td>
+    </tr>
+  </table>
+</div>
