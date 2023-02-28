@@ -132,7 +132,24 @@ h1#header-mobile {
   color: inherit;
 }
 
+/* reduced */
+
+#toc-reduced {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+}
+
 /* MOBILE */
+
+#toc-reduced {
+  display: none;
+}
+
+.toc-entry-activated-indicator.left {
+  display: none;
+}
 
 @media screen and (max-width: 1100px) {
   #page-container {
@@ -155,8 +172,23 @@ h1#header-mobile {
     padding: 5px;
   }
 
+  #toc-reduced {
+    display: flex;
+  }
+
   #toc-container {
     margin: initial;
+  }
+
+  #toc-inner-container:not(.expanded) {
+    display: none;
+  }
+
+  .toc-entry-activated-indicator.left {
+    display: inherit;
+  }
+  .toc-entry-activated-indicator.right {
+    display: none;
   }
 }
 
@@ -178,7 +210,3 @@ blockquote {
 #content-container a:hover {
   text-decoration: none;
 }
-
-
-/* images */
-

@@ -5,12 +5,20 @@
     <h1 class="header" id="header-mobile">Mährisch und Böhmisch Wiesen im Schönhengstgau</h1>
 
     <div id="toc-container" *ngIf="(pageStructure | async) as pageStructure">
-      <div id="toc-inner-container">
+      <div id="toc-reduced" (click)="toggleExpandToc()">
+        <span style="color: white">
+          <ng-container *ngIf="!expandToc">{{(getActivatedPage() | async)?.title}}</ng-container>
+        </span>
+        <img *ngIf="expandToc" src="/assets/toc_buttons/toc_button_reduce.svg" height="16">
+        <img *ngIf="!expandToc" src="/assets/toc_buttons/toc_button_expand.svg" height="16">
+      </div>
+      <div id="toc-inner-container" [class.expanded]="expandToc">
         <div *ngFor="let section of pageStructure" class="toc-section">
           <div *ngFor="let page of section" class="toc-entry">
             <a [routerLink]="page.id.split('/')">
+              <span class="toc-entry-activated-indicator left" [class.activated]="(activatedPage | async) == page.id">·</span>
               {{page.title}}
-              <span class="toc-entry-activated-indicator" [class.activated]="(activatedPage | async) == page.id">·</span>
+              <span class="toc-entry-activated-indicator right" [class.activated]="(activatedPage | async) == page.id">·</span>
             </a>
           </div>
           <div class="toc-divider" *ngIf="pageStructure.indexOf(section) != pageStructure.length - 1"></div>
