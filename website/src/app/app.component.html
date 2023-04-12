@@ -17,6 +17,7 @@
           <div *ngFor="let page of section" class="toc-entry">
             <a [routerLink]="page.id.split('/')">
               <span class="toc-entry-activated-indicator left" [class.activated]="isPageActivated(page.id) | async">·</span>
+              <span class="blog-new-banner" *ngIf="page.id == 'oth/blog'">NEU</span>
               {{page.title}}
               <span class="toc-entry-activated-indicator right" [class.activated]="isPageActivated(page.id) | async">·</span>
             </a>
