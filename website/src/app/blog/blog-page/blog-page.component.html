@@ -1,3 +1,8 @@
-<h1>Blog - IN ARBEIT</h1>
+<h1>Blog</h1>
 
-<a routerLink="/blog/01-willkommen">01 Willkommen</a>
+<div id="pages-container">
+  <div class="page-card" [routerLink]="'/blog/' + page.id" *ngFor="let page of blogPages">
+    <div class="page-title">{{page.title}}</div>
+    <div class="page-date">Veröffentlicht {{page.date.toLocaleDateString()}}</div>
+  </div>
+</div>
