@@ -1,0 +1,32 @@
+#blog-info {
+  margin-top: 20px;
+  border: 1px solid grey;
+  width: fit-content;
+  padding: 15px 20px;
+  border-radius: 15px;
+
+  display: flex;
+  gap: 15px;
+
+  #blog-back-link {
+    border: none;
+    background: none;
+
+    text-decoration: none !important;
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+
+    cursor: pointer;
+  }
+
+  #blog-info-text {
+    color: grey;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #blog-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

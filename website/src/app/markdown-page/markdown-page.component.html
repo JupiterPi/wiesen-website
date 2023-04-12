@@ -1,1 +1,9 @@
+<div id="blog-info" *ngIf="isBlogPage">
+  <a routerLink="/oth/blog" id="blog-back-link" *ngIf="isBlogPage"><< Blog</a>
+
+  <div id="blog-info-text">
+    Veröffentlicht {{blogReleaseDate?.toLocaleDateString()}}
+  </div>
+</div>
+
 <div [md-block]="rootNode"></div>

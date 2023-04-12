@@ -9,12 +9,13 @@ import {AngularFireStorageModule, BUCKET} from "@angular/fire/compat/storage";
 import {AngularFireModule} from "@angular/fire/compat";
 import {environment} from "../environments/environment";
 
-import { reparseFactory } from './markdown-parser/reparse-factory';
+import {reparseFactory} from './markdown-parser/reparse-factory';
 import {MarkdownBlock} from "./markdown-parser/block/block.component";
 import {MarkdownInline} from "./markdown-parser/inline/inline.component";
-import { ImageComponent } from './markdown-parser/image/image.component';
-import { TablePageComponent } from './table-page/table-page.component';
+import {ImageComponent} from './markdown-parser/image/image.component';
+import {TablePageComponent} from './table-page/table-page.component';
 import {FileSaverModule} from "ngx-filesaver";
+import {BlogPageComponent} from './blog/blog-page/blog-page.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +25,14 @@ import {FileSaverModule} from "ngx-filesaver";
     MarkdownInline,
     ImageComponent,
     TablePageComponent,
+    BlogPageComponent,
   ],
     imports: [
       BrowserModule,
       HttpClientModule,
       RouterModule.forRoot([
         {path: "", redirectTo: "oth/home", pathMatch: "full"},
+        {path: "oth/blog", component: BlogPageComponent},
         {path: ":section/:page", component: MarkdownPageComponent}
       ]),
       AngularFireModule.initializeApp(environment.firebase),

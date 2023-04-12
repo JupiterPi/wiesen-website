@@ -11,11 +11,9 @@ import {Event as NavigationEvent, NavigationEnd, Router} from "@angular/router";
 })
 export class AppComponent {
   pageStructure: Observable<Page[][]>;
-  activatedPage: Observable<string>;
 
   constructor(private pageStructureService: PageStructureService, private router: Router) {
     this.pageStructure = this.pageStructureService.getPageStructure();
-    this.activatedPage = this.pageStructureService.getActivatedPage();
 
     this.router.events.subscribe((event: NavigationEvent) => {
       if (event instanceof NavigationEnd) {
@@ -29,12 +27,22 @@ export class AppComponent {
     this.expandToc = !this.expandToc;
   }
 
-  getActivatedPage(): Observable<Page> {
+  getActivatedPageTitle(): Observable<string> {
     return new Observable(subscriber => {
-      this.activatedPage.subscribe(activatedPageId => {
+      this.pageStructureService.getActivatedPage().subscribe(activatedPageId => {
         this.pageStructure.subscribe(pageStructure => {
-          subscriber.next(pageStructure.flat().find(page => page.id == activatedPageId));
+          const page = pageStructure.flat().find(page => page.id == activatedPageId);
+          subscriber.next(page?.title ?? "Blog");
         });
+      });
+    });
+  }
+
+  isPageActivated(pageId: string): Observable<boolean> {
+    return new Observable(subscriber => {
+      this.pageStructureService.getActivatedPage().subscribe(activatedPageId => {
+        const isBlogPage = activatedPageId.startsWith("blog") && pageId == "oth/blog";
+        subscriber.next(activatedPageId == pageId || isBlogPage);
       });
     });
   }

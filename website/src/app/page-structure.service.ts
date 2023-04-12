@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {BehaviorSubject, filter, Observable} from "rxjs";
-import {Page, StorageService} from "./storage.service";
+import {BlogPage, Page, StorageService} from "./storage.service";
 import {Event as NavigationEvent, NavigationEnd, Router} from "@angular/router";
 import {isNonNull} from "./util";
 
@@ -9,11 +9,19 @@ import {isNonNull} from "./util";
 })
 export class PageStructureService {
   private pageStructure = new BehaviorSubject<Page[][]>([]);
+  private blogPages = new BehaviorSubject<BlogPage[]>([]);
   private activatedPage = new BehaviorSubject<string|null>(null);
 
   constructor(private storage: StorageService, private router: Router) {
-    this.storage.getPageStructure().subscribe(pageStructure => {
-      this.pageStructure.next(pageStructure);
+    this.storage.getPagesInfo().subscribe(pagesInfo => {
+      this.pageStructure.next(pagesInfo.pages);
+      this.blogPages.next(pagesInfo.blogPages.map(page => {
+        return {
+          id: page["id"],
+          title: page["title"],
+          date: new Date(page["date"])
+        };
+      }));
     });
 
     router.events.subscribe((event: NavigationEvent) => {
@@ -28,6 +36,15 @@ export class PageStructureService {
             }
           }
         });
+        this.blogPages.subscribe(blogPages => {
+          for (let blogPage of blogPages) {
+            const blogPageId = "blog/" + blogPage.id;
+            if (pageId.startsWith(blogPageId)) {
+              this.activatedPage.next(blogPageId);
+              break;
+            }
+          }
+        });
 
       }
     });
@@ -35,6 +52,10 @@ export class PageStructureService {
 
   getPageStructure(): Observable<Page[][]> {
     return this.pageStructure.pipe(filter(isNonNull));
+  }
+
+  getBlockPages(): Observable<BlogPage[]> {
+    return this.blogPages.pipe(filter(isNonNull));
   }
 
   getActivatedPage(): Observable<string> {

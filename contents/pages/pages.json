@@ -5,6 +5,11 @@
         "id": "oth/home",
         "title": "Home",
         "type": "markdown"
+      },
+      {
+        "id": "oth/blog",
+        "title": "Blog",
+        "type": "custom"
       }
     ],
     [
@@ -27,7 +32,7 @@
     [
       {
         "id": "bw/ort-boehmisch-wiesen",
-        "title": "Der Ort Mährisch Wiesen",
+        "title": "Der Ort Böhmisch Wiesen",
         "type": "markdown"
       },
       {
@@ -92,5 +97,12 @@
         "type": "markdown"
       }
     ]
+  ],
+  "blogPages": [
+    {
+      "id": "01-willkommen",
+      "title": "Willkommen",
+      "date": "12 Apr 2023"
+    }
   ]
 }

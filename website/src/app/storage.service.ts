@@ -3,6 +3,11 @@ import {AngularFireStorage} from "@angular/fire/compat/storage";
 import {HttpClient} from "@angular/common/http";
 import {first, Observable} from "rxjs";
 
+export interface PagesInfo {
+  pages: Page[][];
+  blogPages: BlogPage[];
+}
+
 export interface Page {
   id: string;
   title: string;
@@ -11,18 +16,22 @@ export interface Page {
 
 export type PageType = "markdown" | "custom";
 
+export interface BlogPage {
+  id: string;
+  title: string;
+  date: Date;
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class StorageService {
   constructor(private storage: AngularFireStorage, private http: HttpClient) {}
 
-  getPageStructure(): Observable<Page[][]> {
+  getPagesInfo(): Observable<PagesInfo> {
     return new Observable(subscriber => {
       this.storage.ref("contents/pages/pages.json").getDownloadURL().subscribe(downloadUrl => {
-        this.http.get<{pages: Page[][]}>(downloadUrl).subscribe(pageStructure => {
-          subscriber.next(pageStructure.pages);
-        });
+        this.http.get<PagesInfo>(downloadUrl).subscribe(subscriber);
       });
     });
   }
