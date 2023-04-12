@@ -31,8 +31,14 @@ export class MarkdownPageComponent implements OnInit {
         this.blogReleaseDate = undefined;
       }
 
-      this.storage.getPageContent(activatedPage).subscribe(pageContent => {
-        this.rootNode = this.markdownParser.parse(pageContent);
+      this.pageStructureService.getPageStructure().subscribe(pageStructure => {
+        const page = pageStructure.flat().find(page => page.id == activatedPage);
+        const isCustomPage = page?.type == "custom";
+        if (!isCustomPage) {
+          this.storage.getPageContent(activatedPage).subscribe(pageContent => {
+            this.rootNode = this.markdownParser.parse(pageContent);
+          });
+        }
       });
 
     });
