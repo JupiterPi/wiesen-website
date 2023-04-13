@@ -20,3 +20,7 @@
 ![Orgel](/galerie/full/st-bartholomaeus-orgeltastatur.JPG "/galerie/thumbnail/st-bartholomaeus-orgeltastatur.JPG")
 ![Dachstuhl der Kirche](/galerie/full/st-bartholomaeus-dachstuhl.JPG "/galerie/thumbnail/st-bartholomaeus-dachstuhl.JPG")
 ![Kirchenglocke](/galerie/full/st-bartholomaeus-glocke.JPG "/galerie/thumbnail/st-bartholomaeus-glocke.JPG")
+![Brüsauer Freibad mit Rutsche](/galeri/full/br-freibad.jpg "/galerie/thumbnail/br-freibad.jpg")
+![Brüsauer Schule mit St. Nepomuk Figur](/galeri/full/br-schule-mit-nepomuk.jpg "/galerie/thumbnail/br-schule-mit-nepomuk.jpg")
+![Brüsauer Stadtplatz mit Schule und Kirche](/galeri/full/br-stadtplatz.jpg "/galerie/thumbnail/br-stadtplatz.jpg")
+![Gasthaus J. Kopecky Brüsau](/galeri/full/gasthaus-kopecky.jpg "/galerie/thumbnail/gasthaus-kopecky.jpg")

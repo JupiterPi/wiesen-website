@@ -58,18 +58,23 @@
     ],
     [
       {
-        "id": "oth/bruesauer-friedhof",
+        "id": "br/bruesauer-friedhof",
         "title": "Brüsauer Friedhof",
         "type": "markdown"
       },
       {
-        "id": "oth/bruesauer-persoenlichkeiten",
+        "id": "br/bruesauer-persoenlichkeiten",
         "title": "Brüsauer Persönlichkeiten",
         "type": "markdown"
       },
       {
-        "id": "oth/bruesau-galerie",
+        "id": "br/bruesau-galerie",
         "title": "Brüsau Galerie",
+        "type": "markdown"
+      },
+      {
+        "id": "br/kirche-st-bartholomaeus",
+        "title": "Kirche St. Bartholomäus",
         "type": "markdown"
       }
     ],

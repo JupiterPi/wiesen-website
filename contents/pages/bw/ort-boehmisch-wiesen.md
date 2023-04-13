@@ -27,6 +27,10 @@ Mit der neuen Glocke wurde auch ein neuer Standort der Kapelle gewählt. Die Wah
 - Die Böhmische Mühle (bestehend seit etwa 1660) war um die Jahrhundertwende im Besitz des Rudolf Fritz. Später kaufte Franz Milim jene auf.
 - Die Petermühle war ursprünglich eine Papiermühle, später wurde sie dann aber von der Zwittauer Tuchmacherzunft zu einer Walke umgebaut. Mitte des 19. Jahrhunderts kaufte Peter Müller die Mühle und baute sie wiederum zu einer Lohnmühle um. Um die Jahrhundertwende verkaufte dieser die Mühle an Herrn Franz Zabrodsky, der sie 1919 um ein Sägewerk ergänzte. 1923 brannte die Petermühle nieder und wurde nicht mehr aufgebaut. Jedoch blieben die Grundmauern des Mühlgebäudes erhalten, worin dann ein Mehrfamiliengaus gebaut wurde (Nr. 32).
 
+![Zabrodsky Mühle](/bw/zabrodsky-muehle.JPG)
+![Zabrodsky Mühle und Langer-Gasthaus um 1910](/bw/zabrodsky-muehle-und-langer-gasthaus.jpg)
+![Mühle des Franz Milim](/bw/muehle-franz-mili.jpg)
+![Roethleinmühle](/bw/roethleinmuehle.jpg)
 
 ## Die Seidenweberei
 
@@ -40,3 +44,15 @@ Im Zweiten Weltkrieg kaufte Siemens die Fabrikgebäude auf, um Rüstungswahren h
 Angrenzend an die Firma Adolf Freund befand sich die Baumwollweberei Beamt. Zuvor befand sich an selber Stelle jahrhunderte eine Getreidemühle der Herrschaft Zwittau (Vierzighuben). 1719 verpachtete die Herrschaft Zwittau die Mühle an den Branntwein- und Lederhausbesitzer Bieberle, der sie zu einer Tuhwalke umbaute. Nach verschiedenen Besitzern erwarb Hugo Schwab die Mühle, der sie 1890 mitsamt der Wasserkraft an die Firma Beamt (Zwittau).
 
 1923 wurden die Wasserrechte an die Stadt Brünn verkauft und die Fabrik stillgelegt. Nach der Vertreibung wurde auch sie, wie die Seidenweberei Beamt niedergerissen und mit den Trümmern das Flussbett verfüllt.
+
+---
+
+![Feuerwehrfest](/bw/feuerwehrfest.jpg)
+![Freiwillige Feuerwehr, Motorspritzenweihe 28.5.1932](/bw/freiwillige-feuerwehr.jpg)
+![Feuerwehr-Gerätehäuschen](/bw/feuerwehr-geraetehaeuschen.JPG)
+![Milim Mühle, Kapelle, Gemischtwarenhandlung Graupner (Kupsa) (v.l.n.r.)](/bw/insel.jpg)
+![Volksfest](/bw/volksfest.jpg)
+![Theatergruppe](/bw/theatergruppe.jpg)
+![Nepomuk-Statue](/bw/truda.jpg)
+![Totalansicht](/bw/totalansicht.JPG)
+![Ansicht von Wiesen (1: Weigl-Bauernhof, 2: Kapelle, 3: Milim-Mühle, 4: Siegl-Bauernhof, 5: Scheune vom Cirl-Bauern, oben: Böhmisch/unten: Mährisch Wiesen)](/bw/ansicht-von-wiesen.png)
