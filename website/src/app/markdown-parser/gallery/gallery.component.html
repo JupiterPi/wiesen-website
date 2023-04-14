@@ -1,7 +1,17 @@
-<h2 *ngIf="title">{{title}}</h2>
+<div id="container" [class.expandable]="expandable">
+  <div id="header" (click)="toggleExpand()">
+    <div id="button" *ngIf="expandable">
+      <ng-container *ngIf="expanded">&#9660;</ng-container>
+      <ng-container *ngIf="!expanded">&#9650;</ng-container>
+    </div>
+    <h2 *ngIf="title">{{title}}</h2>
+  </div>
 
-<app-image
-  *ngFor="let picture of pictures"
-  [picture]="picture"
->
-</app-image>
+  <div id="pictures-container" *ngIf="!expandable || expanded">
+    <app-image
+      *ngFor="let picture of pictures"
+      [picture]="picture"
+    >
+    </app-image>
+  </div>
+</div>

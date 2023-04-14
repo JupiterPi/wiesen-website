@@ -1,0 +1,30 @@
+#container {
+  &.expandable {
+    border: 1px solid grey;
+    border-radius: 15px;
+
+    padding: 15px;
+    margin-bottom: 10px;
+
+    #header {
+      display: flex;
+      gap: 20px;
+      cursor: pointer;
+
+      #button {
+        color: grey;
+        position: relative;
+        top: 5px;
+        left: 5px;
+      }
+    }
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+#pictures-container {
+  margin-top: 15px;
+}

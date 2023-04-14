@@ -26,7 +26,7 @@ export class MarkdownBlock {
   getBlockquoteType(blockquote: mdBlockquote): "blockquote" | "table" | "gallery" {
     const content = this.getBlockquoteTextContent(blockquote);
     if (content?.startsWith("table")) return "table";
-    if (content?.startsWith("gallery")) return "gallery";
+    if (content?.startsWith("gallery") || content?.startsWith("expandable_gallery")) return "gallery";
     return "blockquote";
   }
 
@@ -56,12 +56,19 @@ export class MarkdownBlock {
   }
 
   getGalleryTitleFromBlockquote(blockquote: mdBlockquote) {
-    const text = this.getBlockquoteTextContent(blockquote)?.substring("gallery ".length) ?? "";
+    const rawText = this.getBlockquoteTextContent(blockquote) ?? "";
+    const text = rawText.substring(rawText.indexOf(" ")+1);
+
     const index = text?.indexOf(" ");
     if (index == -1) {
       return undefined;
     } else {
       return text.substring(index + 1);
     }
+  }
+
+  getGalleryExpandableFromBlockquote(blockquote: mdBlockquote) {
+    const text = this.getBlockquoteTextContent(blockquote);
+    return text?.startsWith("expandable");
   }
 }

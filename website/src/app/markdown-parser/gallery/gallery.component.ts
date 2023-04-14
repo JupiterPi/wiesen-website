@@ -12,6 +12,9 @@ export class GalleryComponent implements OnInit {
   @Input("title") title?: string;
   pictures: Picture[] = [];
 
+  @Input("expandable") expandable: boolean = false;
+  expanded = false;
+
   constructor(private pageStructure: PageStructureService) {}
 
   ngOnInit(): void {
@@ -19,5 +22,9 @@ export class GalleryComponent implements OnInit {
       const group = pictures.find(group => group.id == this.groupId);
       if (group) this.pictures = group.pictures;
     });
+  }
+
+  toggleExpand() {
+    if (this.expandable) this.expanded = !this.expanded;
   }
 }
