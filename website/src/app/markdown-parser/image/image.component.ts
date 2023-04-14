@@ -1,20 +1,59 @@
-import {Component, Input} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Picture, StorageService} from "../../storage.service";
+import {first, Observable} from "rxjs";
+import {PageStructureService} from "../../page-structure.service";
 
 @Component({
   selector: 'app-image',
   templateUrl: './image.component.html',
   styleUrls: ['./image.component.scss']
 })
-export class ImageComponent {
-  @Input("src") imageUrl?: string;
-  @Input("src-thumbnail") thumbnailUrl?: string;
-  @Input("alt") alternativeText?: string;
+export class ImageComponent implements OnInit {
+  @Input("src") imageSource?: string;
+  picture?: Picture;
 
-  get effectiveImageUrl(): string | undefined {
-    return this.thumbnailUrl ?? this.imageUrl;
+  constructor(private pageStructureService: PageStructureService, private storage: StorageService) {}
+
+  ngOnInit() {
+    if (!this.imageSource) return;
+
+    const idParts = this.imageSource.substring(1).split("/");
+    const groupId = idParts[0];
+    const pictureId = idParts[1];
+    console.log(groupId, pictureId);
+
+    this.pageStructureService.getPictures().subscribe(pictures => {
+      console.log(pictures);
+      this.picture = pictures
+        .find(group => group.id == groupId)?.pictures
+        .find(picture => picture.id == pictureId);
+      console.log(pictures.find(group => group.id == groupId));
+      console.log(this.picture);
+    });
+  }
+
+  effectiveImageUrl(): Observable<string | undefined> {
+    return new Observable<string>(subscriber => {
+      if (this.picture) {
+        const src = this.picture.src;
+        if (src.startsWith("/")) {
+          this.storage.getPictureUrl(src).subscribe(url => {
+            subscriber.next(url);
+          });
+        } else {
+          subscriber.next(src);
+        }
+      } else {
+        subscriber.next(undefined);
+      }
+    });
   }
 
   openImage() {
-    if (this.imageUrl != null) window.open(this.imageUrl);
+    this.effectiveImageUrl().subscribe(url => {
+      if (url) window.open(url);
+    });
   }
+
+  protected readonly first = first;
 }

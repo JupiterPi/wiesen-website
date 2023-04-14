@@ -39,7 +39,7 @@ export class MarkdownInline {
 
   imageUrls = new CacheMap<string, Observable<string>>(src => {
     return src.startsWith("/")
-      ? this.storage.getImageURL(src)
+      ? this.storage.getPictureUrl(src)
       : new BehaviorSubject(src);
   });
 }

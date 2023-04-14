@@ -1,2 +1,2 @@
-pic
-pic/*
+pictures/*
+!pictures/pictures.json

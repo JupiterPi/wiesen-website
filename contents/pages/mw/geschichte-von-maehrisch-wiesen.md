@@ -7,8 +7,8 @@ Hier seien nun die Ergebnisse von Carl Lick dargestellt, die wir aus dem Buch �
 Das Dorf Brüsau, welches im Laufe der nachstehenden Jahrhunderte zum Markt und schließlich zur Stadt aufsteigen wird, geht auf eine Gründung durch den Bischof von Olmütz, Bruno von Schaumburg (um 1205-1281), um die Mitte des 13. Jahrhunderts zurück. Erste schriftliche Nennung erfolgt 26. Mai 1296 in einem Brief des Königs Wenzel von Böhmen Ansprüche auf den „Distrikt Brezovia“ erhebt, welches jedoch im Besitz des Bistum Olmütz ist. Schließlich beugt sich der gottesfürchtige König untertänigst und der „Distrikt“ verbleibt der Kirche. Die Dörfer, die König Wenzel zu diesem gehörigen „Distrikt“ jedoch nicht mit Namen nennt, tauchen in einer Urkunde aus der Zeit Bischof Konrads (1318-1326) auf, also nur zwei Jahrzehnte später. Jedoch suchen wir nach den Namen Mußlaus und Mährisch Wiesens vergeblich, sodass wir zu der Erkenntnis kommen müssen, dass die beiden Ortschaften später gegründet wurden. Wahrscheinlich wird es, wie bei Vierzighuben (untertänig zu Zwittau), eine Gründung ausgehend vom übergeordneten Grundherren sein, in unserem Falle der Stadt Brüsau. Die Gründung wird also noch im 14. Jahrhundert geschehen sein.
 
 ![Bischof Bruno von Schaumburg (Schauenberg)](https://upload.wikimedia.org/wikipedia/commons/2/2f/Biskup_Bruno_ze_Schauenburku.gif)
-![Wappen des Bischof Nikolaus von Riesenburg](/bischof-nikolaus-von-olmuetz-wappen.png)
-![Bischof Stanislaus Thurzo](https://upload.wikimedia.org/wikipedia/commons/8/88/Thurzo.jpg)
+![Wappen des Bischof Nikolaus von Riesenburg](/oth/bischof-nikolaus-von-olmuetz-wappen)
+![](/oth/thurzo)
 
 
 ## Rechte und Pflichten

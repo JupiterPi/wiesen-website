@@ -1,0 +1,40 @@
+{
+  "pictures": [
+    {
+      "id": "oth",
+      "pictures": [
+        {
+          "src": "/muellerische-karte.png",
+          "title": "Brisau auf dieser Karte"
+        },
+        {
+          "src": "/bischof-nikolaus-von-olmuetz-wappen.png",
+          "title": "Wappen des Bischof Nikolaus von Olmütz"
+        },
+        {
+          "id": "thurzo",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Thurzo.jpg",
+          "title": "Bischof Stanislaus Thurzo"
+        }
+      ]
+    },
+    {
+      "id": "volksschule",
+      "pictures": [
+        {
+          "src": "/aktuell.JPG",
+          "title": "Aktuell"
+        },
+        {
+          "src": "/schulklasse-1.jpg",
+          "title": "Schulklasse 1926 mit Oberlehrer Kleiner",
+          "description": [
+            "## Überschrift",
+            "Hier könnte noch etwas mehr Text stehen.",
+            "Sogar mit **Markdown**."
+          ]
+        }
+      ]
+    }
+  ]
+}

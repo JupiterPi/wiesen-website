@@ -1,8 +1,9 @@
 import {Injectable} from '@angular/core';
 import {AngularFireStorage} from "@angular/fire/compat/storage";
 import {HttpClient} from "@angular/common/http";
-import {first, Observable} from "rxjs";
+import {BehaviorSubject, filter, Observable} from "rxjs";
 import {environment} from "../environments/environment";
+import {CacheMap, isNonNull} from "./util";
 
 export interface Page {
   id: string;
@@ -16,6 +17,28 @@ export interface BlogPage {
   id: string;
   title: string;
   date: Date;
+}
+
+export interface PictureGroup {
+  id: string;
+  pictures: Picture[];
+}
+interface PictureGroupDTO {
+  id: string;
+  pictures: PictureDTO[];
+}
+
+export interface Picture {
+  id: string;
+  src: string;
+  title: string;
+  description?: string[];
+}
+interface PictureDTO {
+  id?: string;
+  src: string;
+  title: string;
+  description?: string[];
 }
 
 @Injectable({
@@ -42,9 +65,42 @@ export class StorageService {
     });
   }
 
-  getImageURL(image: string): Observable<string> {
-    if (!image.startsWith("/")) image = "/" + image;
-    return this.storage.ref(this.root + "/pic" + image).getDownloadURL().pipe(first());
+  getPicturesInfo(): Observable<PictureGroup[]> {
+    return new Observable(subscriber => {
+      this.storage.ref(this.root + "/pictures/pictures.json").getDownloadURL().subscribe(downloadURL => {
+        this.http.get<{pictures: PictureGroupDTO[]}>(downloadURL).subscribe(picturesInfo => {
+          subscriber.next(
+            picturesInfo.pictures
+              .map(groupDTO => {
+                return {
+                  id: groupDTO.id,
+                  pictures: groupDTO.pictures
+                    .map(pictureDTO => {
+                      return {
+                        id: pictureDTO.id ?? pictureDTO.src.substring(1, pictureDTO.src.lastIndexOf(".")),
+                        src: pictureDTO.src.startsWith("/") ? "/" + groupDTO.id + pictureDTO.src : pictureDTO.src,
+                        title: pictureDTO.title,
+                        description: pictureDTO.description
+                      };
+                    })
+                };
+              })
+          );
+        });
+      });
+    });
+  }
+
+  pictureUrls = new CacheMap<string, BehaviorSubject<string | undefined>>(src => {
+    console.log("computing for val: ", this.root + "/pictures" + src);
+    const s = new BehaviorSubject<string | undefined>(undefined);
+    this.storage.ref(this.root + "/pictures" + src).getDownloadURL()/*.pipe(first())*/.subscribe(url => {
+      s.next(url);
+    });
+    return s;
+  });
+  getPictureUrl(src: string): Observable<string> {
+    return this.pictureUrls.get(src).pipe(filter(isNonNull));
   }
 
   getTable(tableId: string): Observable<string> {

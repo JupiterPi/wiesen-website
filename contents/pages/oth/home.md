@@ -6,7 +6,7 @@ Diese Website befasst sich mit den zwei Ortschaften Mährisch und Böhmisch Wies
 
 Diese Website dient dem Erhalt der Erinnerung und der Geschichte dieser Ortschaften. Wir hoffen, Ihnen einen kleinen Einblick in die Kultur und die Geschichte der beiden Ortschaften geben zu können und Ihr Interesse geweckt zu haben.
 
-![Brisau auf dieser Karte](/muellerische-karte-1700.png)
+![](/oth/muellerische-karte)
 
 Ich bin seit September 2020 mit 14 Jahren der jüngste Ortsberichterstatter des Schönhengster Heimatbundes für den Ort Mährisch-Wiesen. Daher bin ich immer auf der Suche nach Informationen, Bildern und Nachfahren der ehemaligen Bewohner. Falls Sie mir in dieser Sache helfen können, sehen Sie bitte bei [Kontakt](/oth/kontakt) nach.
 

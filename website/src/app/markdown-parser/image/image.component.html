@@ -1,9 +1,9 @@
 <div id="container">
   <img
-    [src]="effectiveImageUrl"
-    [title]="alternativeText"
-    [alt]="alternativeText"
+    [src]="effectiveImageUrl() | async"
+    [title]="picture?.title"
+    [alt]="picture?.title"
     (click)="openImage()"
   >
-  <div id="title">{{alternativeText}}</div>
+  <div id="title">{{picture?.title}}</div>
 </div>
