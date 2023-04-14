@@ -10,11 +10,12 @@ import {PageStructureService} from "../../page-structure.service";
 })
 export class ImageComponent implements OnInit {
   @Input("src") imageSource?: string;
-  picture?: Picture;
+  @Input("picture") picture?: Picture;
 
   constructor(private pageStructureService: PageStructureService, private storage: StorageService) {}
 
   ngOnInit() {
+    if (this.picture) return;
     if (!this.imageSource) return;
 
     const idParts = this.imageSource.substring(1).split("/");

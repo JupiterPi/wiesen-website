@@ -23,9 +23,10 @@ export class MarkdownBlock {
 
   /* blockquotes */
 
-  getBlockquoteType(blockquote: mdBlockquote): "blockquote" | "table" {
+  getBlockquoteType(blockquote: mdBlockquote): "blockquote" | "table" | "gallery" {
     const content = this.getBlockquoteTextContent(blockquote);
     if (content?.startsWith("table")) return "table";
+    if (content?.startsWith("gallery")) return "gallery";
     return "blockquote";
   }
 
@@ -38,5 +39,29 @@ export class MarkdownBlock {
       }
     }
     return null;
+  }
+
+  /* (as table) */
+
+  getTableIdFromBlockquote(blockquote: mdBlockquote) {
+    const text = this.getBlockquoteTextContent(blockquote);
+    return text?.substring("table ".length);
+  }
+
+  /* (as gallery) */
+
+  getGalleryGroupIdFromBlockquote(blockquote: mdBlockquote) {
+    const text = this.getBlockquoteTextContent(blockquote);
+    return text?.split(" ")[1];
+  }
+
+  getGalleryTitleFromBlockquote(blockquote: mdBlockquote) {
+    const text = this.getBlockquoteTextContent(blockquote)?.substring("gallery ".length) ?? "";
+    const index = text?.indexOf(" ");
+    if (index == -1) {
+      return undefined;
+    } else {
+      return text.substring(index + 1);
+    }
   }
 }

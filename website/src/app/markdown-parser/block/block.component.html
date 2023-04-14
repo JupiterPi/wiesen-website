@@ -30,7 +30,15 @@
 
       <!-- (as table) -->
       <ng-container *ngSwitchCase="'table'">
-        <app-table-page [table-id]="getBlockquoteTextContent(child).substring('table '.length)"></app-table-page>
+        <app-table-page [table-id]="getTableIdFromBlockquote(child)"></app-table-page>
+      </ng-container>
+
+      <!-- (as gallery) -->
+      <ng-container *ngSwitchCase="'gallery'">
+        <app-gallery
+          [id]="getGalleryGroupIdFromBlockquote(child)"
+          [title]="getGalleryTitleFromBlockquote(child)"
+        ></app-gallery>
       </ng-container>
 
       <!-- (normal) -->

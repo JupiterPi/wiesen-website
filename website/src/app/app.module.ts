@@ -16,6 +16,7 @@ import {ImageComponent} from './markdown-parser/image/image.component';
 import {TablePageComponent} from './table-page/table-page.component';
 import {FileSaverModule} from "ngx-filesaver";
 import {BlogPageComponent} from './blog/blog-page/blog-page.component';
+import {GalleryComponent} from './markdown-parser/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import {BlogPageComponent} from './blog/blog-page/blog-page.component';
     ImageComponent,
     TablePageComponent,
     BlogPageComponent,
+    GalleryComponent,
   ],
     imports: [
       BrowserModule,
