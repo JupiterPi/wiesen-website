@@ -9,5 +9,6 @@ export const environment = {
     messagingSenderId: '998047290441',
     measurementId: 'G-ZKQDD8PYDN',
   },
-  production: true
+  firebaseStorageRoot: "contents",
+  production: true,
 };
