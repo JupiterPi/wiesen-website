@@ -6,8 +6,8 @@ Hier seien nun die Ergebnisse von Carl Lick dargestellt, die wir aus dem Buch �
 
 Das Dorf Brüsau, welches im Laufe der nachstehenden Jahrhunderte zum Markt und schließlich zur Stadt aufsteigen wird, geht auf eine Gründung durch den Bischof von Olmütz, Bruno von Schaumburg (um 1205-1281), um die Mitte des 13. Jahrhunderts zurück. Erste schriftliche Nennung erfolgt 26. Mai 1296 in einem Brief des Königs Wenzel von Böhmen Ansprüche auf den „Distrikt Brezovia“ erhebt, welches jedoch im Besitz des Bistum Olmütz ist. Schließlich beugt sich der gottesfürchtige König untertänigst und der „Distrikt“ verbleibt der Kirche. Die Dörfer, die König Wenzel zu diesem gehörigen „Distrikt“ jedoch nicht mit Namen nennt, tauchen in einer Urkunde aus der Zeit Bischof Konrads (1318-1326) auf, also nur zwei Jahrzehnte später. Jedoch suchen wir nach den Namen Mußlaus und Mährisch Wiesens vergeblich, sodass wir zu der Erkenntnis kommen müssen, dass die beiden Ortschaften später gegründet wurden. Wahrscheinlich wird es, wie bei Vierzighuben (untertänig zu Zwittau), eine Gründung ausgehend vom übergeordneten Grundherren sein, in unserem Falle der Stadt Brüsau. Die Gründung wird also noch im 14. Jahrhundert geschehen sein.
 
-![Bischof Bruno von Schaumburg (Schauenberg)](https://upload.wikimedia.org/wikipedia/commons/2/2f/Biskup_Bruno_ze_Schauenburku.gif)
-![Wappen des Bischof Nikolaus von Riesenburg](/oth/bischof-nikolaus-von-olmuetz-wappen)
+![](/oth/biskup-bruno)
+![](/oth/bischof-nikolaus-von-olmuetz-wappen)
 ![](/oth/thurzo)
 
 
@@ -21,7 +21,7 @@ Es dauerte fast ein Jahrhundert, bis Bischof Stanislaus Thurzo (1470-1540) eine 
 
 Im Jahre 1581 wurde der Bürgerschaft von Brüsau das freie Brauen von Bier, sowie der Verkauf auch in den beiden zugehörigen Dörfern erlaubt. Jedoch sollten die Dörfer nicht bei den „Konkurrenten“, also bei anderen Gemeinden zechen und Bier trinken. So verhielt es sich auch mit dem Verkauf und Ankauf von Salz.
 
-![Jan Žižka](/jan_zizka.jpg)
+![](/oth/jan-zizka)
 
 Im selben Jahr zählte Mährisch Wiesen 9 Bauern, die zu Brüsau untertan waren und zu zinsen hatten:
 - *Jacob andresku*
@@ -74,9 +74,9 @@ Einen zweiten Schutzbrief erhielt die Stadt vom Oberkommandant Linnardt Torstens
 >
 > Signatur: im Feldlager vor Brünn am 31. Juli 1645
 >
-> ![Signatur des Oberkommandants Linnardt Torstenson](/signatur-torstenson.png)
+> ![](/oth/signatur-torstenson)
 
-![Oberkommandant Linnardt Torstenson](https://upload.wikimedia.org/wikipedia/commons/d/da/Lennart_Torstenson_%28ur_Svenska_Familj-Journalen%29.png)
+![](/oth/torstenson)
 
 
 ## Das große Unwetter vom 18.5.1798

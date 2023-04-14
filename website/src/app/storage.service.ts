@@ -92,7 +92,6 @@ export class StorageService {
   }
 
   pictureUrls = new CacheMap<string, BehaviorSubject<string | undefined>>(src => {
-    console.log("computing for val: ", this.root + "/pictures" + src);
     const s = new BehaviorSubject<string | undefined>(undefined);
     this.storage.ref(this.root + "/pictures" + src).getDownloadURL()/*.pipe(first())*/.subscribe(url => {
       s.next(url);

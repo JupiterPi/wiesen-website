@@ -8,13 +8,93 @@
           "title": "Brisau auf dieser Karte"
         },
         {
+          "id": "biskup-bruno",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Biskup_Bruno_ze_Schauenburku.gif",
+          "title": "Bischof Bruno von Schaumburg (Schauenberg)"
+        },
+        {
           "src": "/bischof-nikolaus-von-olmuetz-wappen.png",
-          "title": "Wappen des Bischof Nikolaus von Olmütz"
+          "title": "Wappen des Bischof Nikolaus von Riesenburg"
         },
         {
           "id": "thurzo",
           "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Thurzo.jpg",
           "title": "Bischof Stanislaus Thurzo"
+        },
+        {
+          "src": "/jan-zizka.jpg",
+          "title": "Jan Žižka"
+        },
+        {
+          "src": "/signatur-torstenson.png",
+          "title": "Signatur des Oberkommandants Linnardt Torstenson"
+        },
+        {
+          "id": "torstenson",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Lennart_Torstenson_%28ur_Svenska_Familj-Journalen%29.png",
+          "title": "Oberkommandant Linnardt Torstenson"
+        },
+        {
+          "id": "franz-carl",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Erzherzog_Franz_Karl.JPG",
+          "title": "Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl"
+        }
+      ]
+    },
+    {
+      "id": "bw",
+      "pictures": [
+        {
+          "src": "/zabrodsky-muehle.JPG",
+          "title": "Zabrodsky Mühle"
+        },
+        {
+          "src": "/zabrodsky-muehle-und-langer-gasthaus.jpg",
+          "title": "Zabrodsky Mühle und Langer-Gasthaus um 1910"
+        },
+        {
+          "src": "/muehle-franz-mili.jpg",
+          "title": "Mühle des Franz Milim"
+        },
+        {
+          "src": "/roethleinmuehle.jpg",
+          "title": "Roethleinmühle"
+        },
+        {
+          "src": "/feuerwehrfest.jpg",
+          "title": "Feuerwehrfest"
+        },
+        {
+          "src": "/freiwillige-feuerwehr.jpg",
+          "title": "Freiwillige Feuerwehr, Motorspritzenweihe 28.5.1932"
+        },
+        {
+          "src": "/feuerwehr-geraetehaeuschen.JPG",
+          "title": "Feuerwehr-Gerätehäuschen"
+        },
+        {
+          "src": "/insel.jpg",
+          "title": "Milim Mühle, Kapelle, Gemischtwarenhandlung Graupner (Kupsa) (v.l.n.r.)"
+        },
+        {
+          "src": "/volksfest.jpg",
+          "title": "Volksfest"
+        },
+        {
+          "src": "/theatergruppe.jpg",
+          "title": "Theatergruppe"
+        },
+        {
+          "src": "/truda.jpg",
+          "title": "Nepomuk-Statue"
+        },
+        {
+          "src": "/totalansicht.JPG",
+          "title": "Totalansicht"
+        },
+        {
+          "src": "/ansicht-von-wiesen.png",
+          "title": "Ansicht von Wiesen (1: Weigl-Bauernhof, 2: Kapelle, 3: Milim-Mühle, 4: Siegl-Bauernhof, 5: Scheune vom Cirl-Bauern, oben: Böhmisch/unten: Mährisch Wiesen)"
         }
       ]
     },
@@ -22,17 +102,65 @@
       "id": "volksschule",
       "pictures": [
         {
-          "src": "/aktuell.JPG",
-          "title": "Aktuell"
+          "src": "/volksschule-auf-postkarte.png",
+          "title": "Volksschule von Böhmisch Wiesen (um 1910)"
+        },
+        {
+          "src": "/schulweihe.JPG",
+          "title": "Schulweihe 1910"
         },
         {
           "src": "/schulklasse-1.jpg",
-          "title": "Schulklasse 1926 mit Oberlehrer Kleiner",
-          "description": [
-            "## Überschrift",
-            "Hier könnte noch etwas mehr Text stehen.",
-            "Sogar mit **Markdown**."
-          ]
+          "title": "Schulklasse 1926 mit Oberlehrer Kleiner"
+        },
+        {
+          "src": "/schulklasse-2.jpg",
+          "title": "Schulklasse (2)"
+        },
+        {
+          "src": "/aktuell.JPG",
+          "title": "Aktuell"
+        }
+      ]
+    },
+    {
+      "id": "postcards",
+      "pictures": [
+        {
+          "src": "/card-01-front.png",
+          "title": "Postkarte 1 (Vorderseite)"
+        },
+        {
+          "src": "/card-01-back.png",
+          "title": "Postkarte 1 (Rückseite)"
+        },
+        {
+          "src": "/card-02-front.png",
+          "title": "Postkarte 2 (Vorderseite)"
+        },
+        {
+          "src": "/card-02-back.png",
+          "title": "Postkarte 2 (Rückseite)"
+        },
+        {
+          "src": "/card-03-front.png",
+          "title": "Postkarte 3 (Vorderseite)"
+        },
+        {
+          "src": "/card-03-back.jpg",
+          "title": "Postkarte 3 (Rückseite)"
+        },
+        {
+          "src": "/card-04-front.png",
+          "title": "Postkarte 4 (Vorderseite)"
+        },
+        {
+          "src": "/card-04-back.png",
+          "title": "Postkarte 4 (Rückseite)"
+        },
+        {
+          "src": "/card-05-front.png",
+          "title": "Postkarte 5 (Vorderseite)"
         }
       ]
     }

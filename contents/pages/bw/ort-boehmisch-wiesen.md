@@ -27,10 +27,10 @@ Mit der neuen Glocke wurde auch ein neuer Standort der Kapelle gewählt. Die Wah
 - Die Böhmische Mühle (bestehend seit etwa 1660) war um die Jahrhundertwende im Besitz des Rudolf Fritz. Später kaufte Franz Milim jene auf.
 - Die Petermühle war ursprünglich eine Papiermühle, später wurde sie dann aber von der Zwittauer Tuchmacherzunft zu einer Walke umgebaut. Mitte des 19. Jahrhunderts kaufte Peter Müller die Mühle und baute sie wiederum zu einer Lohnmühle um. Um die Jahrhundertwende verkaufte dieser die Mühle an Herrn Franz Zabrodsky, der sie 1919 um ein Sägewerk ergänzte. 1923 brannte die Petermühle nieder und wurde nicht mehr aufgebaut. Jedoch blieben die Grundmauern des Mühlgebäudes erhalten, worin dann ein Mehrfamiliengaus gebaut wurde (Nr. 32).
 
-![Zabrodsky Mühle](/bw/zabrodsky-muehle.JPG)
-![Zabrodsky Mühle und Langer-Gasthaus um 1910](/bw/zabrodsky-muehle-und-langer-gasthaus.jpg)
-![Mühle des Franz Milim](/bw/muehle-franz-mili.jpg)
-![Roethleinmühle](/bw/roethleinmuehle.jpg)
+![](/bw/zabrodsky-muehle)
+![](/bw/zabrodsky-muehle-und-langer-gasthaus)
+![](/bw/muehle-franz-mili)
+![](/bw/roethleinmuehle)
 
 ## Die Seidenweberei
 
@@ -47,12 +47,12 @@ Angrenzend an die Firma Adolf Freund befand sich die Baumwollweberei Beamt. Zuvo
 
 ---
 
-![Feuerwehrfest](/bw/feuerwehrfest.jpg)
-![Freiwillige Feuerwehr, Motorspritzenweihe 28.5.1932](/bw/freiwillige-feuerwehr.jpg)
-![Feuerwehr-Gerätehäuschen](/bw/feuerwehr-geraetehaeuschen.JPG)
-![Milim Mühle, Kapelle, Gemischtwarenhandlung Graupner (Kupsa) (v.l.n.r.)](/bw/insel.jpg)
-![Volksfest](/bw/volksfest.jpg)
-![Theatergruppe](/bw/theatergruppe.jpg)
-![Nepomuk-Statue](/bw/truda.jpg)
-![Totalansicht](/bw/totalansicht.JPG)
-![Ansicht von Wiesen (1: Weigl-Bauernhof, 2: Kapelle, 3: Milim-Mühle, 4: Siegl-Bauernhof, 5: Scheune vom Cirl-Bauern, oben: Böhmisch/unten: Mährisch Wiesen)](/bw/ansicht-von-wiesen.png)
+![](/bw/feuerwehrfest)
+![](/bw/freiwillige-feuerwehr)
+![](/bw/feuerwehr-geraetehaeuschen)
+![](/bw/insel)
+![](/bw/volksfest)
+![](/bw/theatergruppe)
+![](/bw/truda)
+![](/bw/totalansicht)
+![](/bw/ansicht-von-wiesen)

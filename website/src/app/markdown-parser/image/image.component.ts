@@ -20,15 +20,11 @@ export class ImageComponent implements OnInit {
     const idParts = this.imageSource.substring(1).split("/");
     const groupId = idParts[0];
     const pictureId = idParts[1];
-    console.log(groupId, pictureId);
 
     this.pageStructureService.getPictures().subscribe(pictures => {
-      console.log(pictures);
       this.picture = pictures
         .find(group => group.id == groupId)?.pictures
         .find(picture => picture.id == pictureId);
-      console.log(pictures.find(group => group.id == groupId));
-      console.log(this.picture);
     });
   }
 

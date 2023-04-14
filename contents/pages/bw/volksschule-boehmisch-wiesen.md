@@ -28,8 +28,8 @@ Allgemeines: Die Schüler der ersten Klassenstufe hatten jeden Tag eine Stunde f
 
 *Auszug aus der Schönhengster Heimatzeitung September 2020, Artikel von Jakob Lung*
 
-![Volksschule von Böhmisch Wiesen (um 1910)](/volksschule/volksschule-auf-postkarte.png)
-![Schulweihe 1910](/volksschule/schulweihe.JPG)
-![Schulklasse 1926 mit Oberlehrer Kleiner](/volksschule/schulklasse-1.jpg)
-![Schulklasse (2)](/volksschule/schulklasse-2.jpg)
-![aktuelles Foto](/volksschule/aktuell.JPG)
+![](/volksschule/volksschule-auf-postkarte)
+![](/volksschule/schulweihe)
+![](/volksschule/schulklasse-1)
+![](/volksschule/schulklasse-2)
+![](/volksschule/aktuell)

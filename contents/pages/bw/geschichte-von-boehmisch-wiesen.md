@@ -28,4 +28,4 @@ Der Regimentsstab und das erste Bataillon des K u. K 52. Linien-Infanterie-Regim
 
 Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl:
 
-![Namensgeber des 52. Linien-Infanterie-Regiments und Vater von Kaiser Franz Josef, Erzherzog Franz Carl](https://upload.wikimedia.org/wikipedia/commons/b/b4/Erzherzog_Franz_Karl.JPG)
+![](/oth/franz-carl)
