@@ -1,7 +1,10 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Picture, StorageService} from "../../storage.service";
+import {Picture, PictureGroup, StorageService} from "../../storage.service";
 import {first, Observable} from "rxjs";
 import {PageStructureService} from "../../page-structure.service";
+import {Router} from "@angular/router";
+
+export type OnclickAction = "openPage" | "openImage";
 
 @Component({
   selector: 'app-image',
@@ -11,8 +14,12 @@ import {PageStructureService} from "../../page-structure.service";
 export class ImageComponent implements OnInit {
   @Input("src") imageSource?: string;
   @Input("picture") picture?: Picture;
+  group?: PictureGroup;
 
-  constructor(private pageStructureService: PageStructureService, private storage: StorageService) {}
+  @Input("show-title") showTitle = true;
+  @Input("onclick-action") onclickAction: OnclickAction = "openPage";
+
+  constructor(private pageStructureService: PageStructureService, private storage: StorageService, private router: Router) {}
 
   ngOnInit() {
     if (this.picture) return;
@@ -23,8 +30,9 @@ export class ImageComponent implements OnInit {
     const pictureId = idParts[1];
 
     this.pageStructureService.getPictures().subscribe(pictures => {
-      this.picture = pictures
-        .find(group => group.id == groupId)?.pictures
+      this.group = pictures
+        .find(group => group.id == groupId);
+      this.picture = this.group?.pictures
         .find(picture => picture.id == pictureId);
     });
   }
@@ -47,9 +55,14 @@ export class ImageComponent implements OnInit {
   }
 
   openImage() {
-    this.effectiveImageUrl().subscribe(url => {
-      if (url) window.open(url);
-    });
+    if (this.onclickAction == "openPage") {
+      if (!this.picture) return;
+      this.router.navigate(["img", this.group?.id, this.picture.id]);
+    } else {
+      this.effectiveImageUrl().subscribe(url => {
+        if (url) window.open(url);
+      });
+    }
   }
 
   protected readonly first = first;

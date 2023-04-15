@@ -1,0 +1,16 @@
+<h2>Bild</h2>
+
+<app-image
+  [src]="imageSrc"
+  [show-title]="false"
+  onclick-action="openImage">
+></app-image>
+
+<p>
+  {{picture?.title}}
+
+  <ng-container *ngIf="picture?.description">
+    <br>
+    <div [md-block]="descriptionNode"></div>
+  </ng-container>
+</p>

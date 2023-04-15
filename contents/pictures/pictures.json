@@ -5,7 +5,13 @@
       "pictures": [
         {
           "src": "/muellerische-karte.png",
-          "title": "Brisau auf dieser Karte"
+          "title": "Brisau auf dieser Karte",
+          "description": [
+            "Und noch ein bisschen mehr Text...",
+            "Sogar mit **Formatierung**!",
+            "### Und Überschriften",
+            "(das sind die neuen Beschreibungstexte für Bilder)"
+          ]
         },
         {
           "id": "biskup-bruno",

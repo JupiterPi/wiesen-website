@@ -17,6 +17,7 @@ import {TablePageComponent} from './table-page/table-page.component';
 import {FileSaverModule} from "ngx-filesaver";
 import {BlogPageComponent} from './blog/blog-page/blog-page.component';
 import {GalleryComponent} from './markdown-parser/gallery/gallery.component';
+import {ImagePageComponent} from './image-page/image-page.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +29,14 @@ import {GalleryComponent} from './markdown-parser/gallery/gallery.component';
     TablePageComponent,
     BlogPageComponent,
     GalleryComponent,
+    ImagePageComponent,
   ],
     imports: [
       BrowserModule,
       HttpClientModule,
       RouterModule.forRoot([
         {path: "", redirectTo: "oth/home", pathMatch: "full"},
+        {path: "img/:group/:id", component: ImagePageComponent},
         {path: "oth/blog", component: BlogPageComponent},
         {path: ":section/:page", component: MarkdownPageComponent}
       ]),
