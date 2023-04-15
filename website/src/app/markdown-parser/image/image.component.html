@@ -5,5 +5,8 @@
     [alt]="picture?.title"
     (click)="openImage()"
   >
-  <div id="title" *ngIf="showTitle">{{picture?.title}}</div>
+  <div id="title" *ngIf="showTitle">
+    {{picture?.title}}
+    <span *ngIf="picture?.description" id="description-indicator">📄</span>
+  </div>
 </div>
