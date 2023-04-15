@@ -1,15 +1,3 @@
 # Kirche St. Bartholomäus
 
-![Kircheninnenraum mit Hochaltar](/br-kirche/full/kirche.jpg "/br-kirche/thumbnail/kirche.jpg")
-![Marienaltar](/br-kirche/full/marienaltar.jpg "/br-kirche/thumbnail/marienaltar.jpg")
-![Marienfigur oder Pestsäule](/br-kirche/full/marienfigur-oder-pestsaeule.JPG "/br-kirche/thumbnail/marienfigur-oder-pestsaeule.JPG")
-![Nepomukaltar](/br-kirche/full/nepomukaltar.jpg "/br-kirche/thumbnail/nepomukaltar.jpg")
-![Dachstuhl](/br-kirche/full/st-bartholomaeus-dachstuhl.JPG "/br-kirche/thumbnail/st-bartholomaeus-dachstuhl.JPG")
-![Empore & Orgel](/br-kirche/full/st-bartholomaeus-empore-orgel.JPG "/br-kirche/thumbnail/st-bartholomaeus-empore-orgel.JPG")
-![Glocke](/br-kirche/full/st-bartholomaeus-glocke.JPG "/br-kirche/thumbnail/st-bartholomaeus-glocke.JPG")
-![Hochaltar](/br-kirche/full/st-bartholomaeus-hochaltar.JPG "/br-kirche/thumbnail/st-bartholomaeus-hochaltar.JPG")
-![Kirche innen](/br-kirche/full/st-bartholomaeus-kirche-innen.JPG "/br-kirche/thumbnail/st-bartholomaeus-kirche-innen.JPG")
-![Turm](/br-kirche/full/st-bartholomaeus-kirche-turm.JPG "/br-kirche/thumbnail/st-bartholomaeus-kirche-turm.JPG")
-![Außenansicht](/br-kirche/full/st-bartholomaeus-kirche.JPG "/br-kirche/thumbnail/st-bartholomaeus-kirche.JPG")
-![Marienaltar](/br-kirche/full/st-bartholomaeus-marienaltar.JPG "/br-kirche/thumbnail/st-bartholomaeus-marienaltar.JPG")
-![Orgentastatur](/br-kirche/full/st-bartholomaeus-orgeltastatur.JPG "/br-kirche/thumbnail/st-bartholomaeus-orgeltastatur.JPG")
+> gallery br-kirche

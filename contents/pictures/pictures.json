@@ -163,6 +163,442 @@
           "title": "Postkarte 5 (Vorderseite)"
         }
       ]
+    },
+    {
+      "id": "br-persoenlichkeiten",
+      "pictures": [
+        {
+          "src": "/anna-niederle.JPG",
+          "title": "Anna Niederle (Böhmisch Wiesen)"
+        },
+        {
+          "src": "/klemy-stepanek.JPG",
+          "title": "Klemy Stepanek (geb. Wirschich, Brüsau)"
+        },
+        {
+          "src": "/pfarrer-alois-michalik.JPG",
+          "title": "Pfarrer Alois Michalik (Brüsau)"
+        },
+        {
+          "src": "/theresia-selinka.JPG",
+          "title": "Steinmetzmeistersgattin Theresia Selinka (Brüsau)"
+        },
+        {
+          "src": "/pfarrer-wilhelm-pajatsch.jpeg",
+          "title": "Der junge Pfarrer Wilhelm Pajatsch"
+        },
+        {
+          "src": "/goldene-hochzeit-franz-bidmon.JPG",
+          "title": "Goldene Hochzeit Bäcker Franz Bidmon (1957)"
+        },
+        {
+          "src": "/schlesinger.jpg",
+          "title": "Hr. Schlesinger mit Stefi Hüttner, seine Frau, Schwägerin Juli Cirl (v.l.n.r.)"
+        },
+        {
+          "src": "/hornich.jpg",
+          "title": "Gottlob Hornich mit Sohn Eugen und Frau"
+        }
+      ]
+    },
+    {
+      "id": "br-kirche",
+      "pictures": [
+        {
+          "src": "/kirche.jpg",
+          "title": "Kircheninnenraum mit Hochaltar"
+        },
+        {
+          "src": "/marienaltar.jpg",
+          "title": "Marienaltar"
+        },
+        {
+          "src": "/marienfigur-oder-pestsaeule.JPG",
+          "title": "Marienfigur oder Pestsäule"
+        },
+        {
+          "src": "/nepomukaltar.jpg",
+          "title": "Nepomukaltar"
+        },
+        {
+          "src": "/st-bartholomaeus-dachstuhl.JPG",
+          "title": "Dachstuhl"
+        },
+        {
+          "src": "/st-bartholomaeus-empore-orgel.JPG",
+          "title": "Empore & Orgel"
+        },
+        {
+          "src": "/st-bartholomaeus-glocke.JPG",
+          "title": "Glocke"
+        },
+        {
+          "src": "/st-bartholomaeus-hochaltar.JPG",
+          "title": "Hochaltar"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche-innen.JPG",
+          "title": "Kirche innen"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche-turm.JPG",
+          "title": "Turm"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche.JPG",
+          "title": "Außenansicht"
+        },
+        {
+          "src": "/st-bartholomaeus-marienaltar.JPG",
+          "title": "Marienaltar"
+        },
+        {
+          "src": "/st-bartholomaeus-orgeltastatur.JPG",
+          "title": "Orgentastatur"
+        }
+      ]
+    },
+    {
+      "id": "br-friedhof",
+      "pictures": [
+        {
+          "src": "/anna-hanik.JPG",
+          "title": "Anna Hanik"
+        },
+        {
+          "src": "/anna-niederle.JPG",
+          "title": "Anna Niederle"
+        },
+        {
+          "src": "/anna-sedlatschek.JPG",
+          "title": "Anna Sedlatschek"
+        },
+        {
+          "src": "/anton-u-johanna-jurka.JPG",
+          "title": "Anton & Johanna Jurka"
+        },
+        {
+          "src": "/anton-selinka.JPG",
+          "title": "Anton Selinka"
+        },
+        {
+          "src": "/anton-u-theresia-selinka.JPG",
+          "title": "Anton & Theresia Selinka"
+        },
+        {
+          "src": "/theresia-selinka.JPG",
+          "title": "Theresia Selinka"
+        },
+        {
+          "src": "/baumeister-eduard-gerlich.JPG",
+          "title": "Baumeister Eduard Gerlich"
+        },
+        {
+          "src": "/bernhard-reibhorn.JPG",
+          "title": "Bernhard Reibhorn"
+        },
+        {
+          "src": "/bruesauer-friedhof-mit-friedhofskapelle.JPG",
+          "title": "Brüsauer Friedhof mit Friedhofskapelle"
+        },
+        {
+          "src": "/bruesauer-friedhof.JPG",
+          "title": "Brüsauer Friedhof"
+        },
+        {
+          "src": "/buergermeister-gustav-schauer.JPG",
+          "title": "Bürgermeister Gustav Schauer"
+        },
+        {
+          "src": "/buergermeister-karl-u-marie-schwaller.JPG",
+          "title": "Bürgermeister Karl & Marie Schwaller"
+        },
+        {
+          "src": "/dechant-julius-weinlich.JPG",
+          "title": "Dechant Julius Weinlich"
+        },
+        {
+          "src": "/eduard-u-marie-hikade.JPG",
+          "title": "Eduard & Marie Hikade"
+        },
+        {
+          "src": "/emilie-petjera.JPG",
+          "title": "Emilie Petjera"
+        },
+        {
+          "src": "/familiengrab-bien.JPG",
+          "title": "Familiengrab Bien"
+        },
+        {
+          "src": "/familiengrab-dr-anton-rischawy.JPG",
+          "title": "Familiengrab Dr. Anton Rischawy"
+        },
+        {
+          "src": "/familiengrab-heger-u-kuehn-u-naplava.JPG",
+          "title": "Familiengrab Heger & Kühn & Naplava"
+        },
+        {
+          "src": "/familiengrab-herzig.JPG",
+          "title": "Familiengrab Herzig"
+        },
+        {
+          "src": "/familiengrab-hick.JPG",
+          "title": "Familiengrab Hickl"
+        },
+        {
+          "src": "/familiengrab-hoffmann-klonner.JPG",
+          "title": "Familiengrab Hoffmann Klonner"
+        },
+        {
+          "src": "/familiengrab-hugo-schwab.JPG",
+          "title": "Familiengrab Hugo Schwab"
+        },
+        {
+          "src": "/familiengrab-pinkas-schuetz-u-lehrer-johann-nouschak.JPG",
+          "title": "Familiengrab Pinkas Schütz & Lehrer Johann Nouschak"
+        },
+        {
+          "src": "/familiengrab-schneider-chour.JPG",
+          "title": "Familiengrab Schneider Chour"
+        },
+        {
+          "src": "/familiengrab-staud.JPG",
+          "title": "Familiengrab Staud"
+        },
+        {
+          "src": "/familiengrab-weigl-u-fritz.JPG",
+          "title": "Familiengrab Weigl & Fritz"
+        },
+        {
+          "src": "/familiengrab-wirschich.JPG",
+          "title": "Familiengrab Wirschich"
+        },
+        {
+          "src": "/familiengrab-zeckerth.JPG",
+          "title": "Familiengrab Zeckerth"
+        },
+        {
+          "src": "/frantiska-u-frantisek-barta.JPG",
+          "title": "Frantiska & Frantisek Barta"
+        },
+        {
+          "src": "/franz-u-antonie-stepanek.JPG",
+          "title": "Franz & Antonie Stepanek"
+        },
+        {
+          "src": "/franz-u-marie-ettl.JPG",
+          "title": "Franz & Marie Ettl"
+        },
+        {
+          "src": "/franz-u-marie-kutschera.JPG",
+          "title": "Franz & Marie Kutschera"
+        },
+        {
+          "src": "/franz-wurzl.JPG",
+          "title": "Franz Wurzl"
+        },
+        {
+          "src": "/hathilde-u-franz-jaich.JPG",
+          "title": "Mathilde & Franz Jaich"
+        },
+        {
+          "src": "/hubert-u-marie-schubert-u-richard-finster.JPG",
+          "title": "Hubert & Marie Schubert & Richard Finster"
+        },
+        {
+          "src": "/johann-kascha.JPG",
+          "title": "Johann Kascha"
+        },
+        {
+          "src": "/josef-u-franziska-jurka.JPG",
+          "title": "Josef & Franziska Jurka"
+        },
+        {
+          "src": "/julie-goetz.JPG",
+          "title": "Julie Götz"
+        },
+        {
+          "src": "/karl-hanik.JPG",
+          "title": "Karl Hanik"
+        },
+        {
+          "src": "/karl-hnewkowsky.JPG",
+          "title": "Karl Hnewkowsky"
+        },
+        {
+          "src": "/karl-u-franziska-langer.JPG",
+          "title": "Karl & Franziska Langer"
+        },
+        {
+          "src": "/kriegerdenkmal-1.JPG",
+          "title": "Kriegerdenkmal 1"
+        },
+        {
+          "src": "/kriegerdenkmal-2.JPG",
+          "title": "Kriegerdenkmal 2"
+        },
+        {
+          "src": "/leopold-schloegl.JPG",
+          "title": "Leopold Schlögl"
+        },
+        {
+          "src": "/ludwig-tilhon.JPG",
+          "title": "Ludwig Tilhon"
+        },
+        {
+          "src": "/marianne-marko-geb-schauer.JPG",
+          "title": "Marianne Marko (geb. Schauer)"
+        },
+        {
+          "src": "/marie-heger.JPG",
+          "title": "Cäcilie Heger"
+        },
+        {
+          "src": "/marie-pulzer.JPG",
+          "title": "Marie Pulzer"
+        },
+        {
+          "src": "/marie-skrepska-geb-toldrian.JPG",
+          "title": "Marie Skrepska (geb. Toldrian)"
+        },
+        {
+          "src": "/marie-u-josef-steiner.JPG",
+          "title": "Marie & Josef Steiner"
+        },
+        {
+          "src": "/marie-u-peter-paulis.JPG",
+          "title": "Marie & Peter Paulis"
+        },
+        {
+          "src": "/miladka-u-hermi-u-frantisek-langer.JPG",
+          "title": "Miladka & Hermi & Frantisek Langer"
+        },
+        {
+          "src": "/paul-u-marie-plichta.JPG",
+          "title": "Paul & Marie Plichta"
+        },
+        {
+          "src": "/pfarrer-alois-michalik.JPG",
+          "title": "Pfarrer Alois Michalik"
+        },
+        {
+          "src": "/rudolf-romadka.JPG",
+          "title": "Rudolf Romadka"
+        },
+        {
+          "src": "/sophie-grolig.JPG",
+          "title": "Sophie Grolig"
+        },
+        {
+          "src": "/veronika-weigl-geb-schwaller.JPG",
+          "title": "Veronika Weigl (geb. Schwaller)"
+        },
+        {
+          "src": "/vinzenz-u-marie-pulzer.JPG",
+          "title": "Vinzenz & Marie Pulzer"
+        }
+      ]
+    },
+    {
+      "id": "br-galerie",
+      "pictures": [
+        {
+          "src": "/baeckerei-bilek.JPG",
+          "title": "Dampfbäckerei der Herrn Bürgermeisters Adolf F. Bilek"
+        },
+        {
+          "src": "/bruesau-von-der-kaiserstrasse-aus.JPG",
+          "title": "Brüsau von der Kaiserstraße aus"
+        },
+        {
+          "src": "/cafe-scheider.JPG",
+          "title": "Café Schneider gegenüber der Kirche"
+        },
+        {
+          "src": "/eingangsportal-nr-66.JPG",
+          "title": "Eingangsportal der Nr. 66"
+        },
+        {
+          "src": "/geburtshaus-mathematiker-karl-koristka.JPG",
+          "title": "Geburtshaus des berühmten Geographen und Mathematikers Karl Koristka (1825 - 1906)"
+        },
+        {
+          "src": "/heiliger-nepomuk-mit-bruesauer-stadtwappen.JPG",
+          "title": "Figurengruppe des heiligen Johannes Nepomuk mit Brüsauer Stadtwappen"
+        },
+        {
+          "src": "/marienfigur-oder-pestsaeule.JPG",
+          "title": "Mariensäule oder Pestsäule"
+        },
+        {
+          "src": "/renaissance-gebaeude.JPG",
+          "title": "Renaissance-Gebäude am Stadtplatz"
+        },
+        {
+          "src": "/volks-und-buergerschule.JPG",
+          "title": "Kaiser-Franz-Joseph-Jubiläumsschule (1908 - 1910)"
+        },
+        {
+          "src": "/schule-mit-kriegerdenkmal-und-nepomuk-figurengruppe.JPG",
+          "title": "Volks- und Bürgerschule mit Kriegerdenkmal und Nepomuk-Gruppe"
+        },
+        {
+          "src": "/stadtturm-mit-rathaus.JPG",
+          "title": "Stadtturm mit Rathaus"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche.JPG",
+          "title": "Kirche St. Bartholomäus"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche-turm.JPG",
+          "title": "Kirchturm"
+        },
+        {
+          "src": "/st-bartholomaeus-kirche-innen.JPG",
+          "title": "Kirche von innen"
+        },
+        {
+          "src": "/st-bartholomaeus-hochaltar.JPG",
+          "title": "Hochaltar (zeigt den Namenspatron gemalt vom Brüsauer Maler Eduard Schwoiser)"
+        },
+        {
+          "src": "/st-bartholomaeus-marienaltar.JPG",
+          "title": "Marienaltar"
+        },
+        {
+          "src": "/st-bartholomaeus-empore-orgel.JPG",
+          "title": "Empore mit Orgel von 1903"
+        },
+        {
+          "src": "/st-bartholomaeus-orgeltastatur.JPG",
+          "title": "Orgel"
+        },
+        {
+          "src": "/st-bartholomaeus-dachstuhl.JPG",
+          "title": "Dachstuhl der Kirche"
+        },
+        {
+          "src": "/st-bartholomaeus-glocke.JPG",
+          "title": "Kirchenglocke"
+        },
+        {
+          "src": "/br-freibad.jpg",
+          "title": "Brüsauer Freibad mit Rutsche"
+        },
+        {
+          "src": "/br-schule-mit-nepomuk.jpg",
+          "title": "Brüsauer Schule mit St. Nepomuk Figur"
+        },
+        {
+          "src": "/br-stadtplatz.jpg",
+          "title": "Brüsauer Stadtplatz mit Schule und Kirche"
+        },
+        {
+          "src": "/gasthaus-kopecky.jpg",
+          "title": "Gasthaus J. Kopecky Brüsau"
+        }
+      ]
     }
   ]
 }

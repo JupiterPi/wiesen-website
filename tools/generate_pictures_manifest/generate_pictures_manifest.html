@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pictures Manifest Generator</title>
+    </head>
+    <body>
+
+        <h1>Pictures Manifest Generator</h1>
+
+        Input:
+        <br>
+        <textarea id="input" rows="1" cols="50" placeholder="filename.png:Title for image here"></textarea>
+
+        <br><br>
+        
+        <button onclick="generate()">Generate!</button>
+        <br>
+        <textarea id="output"></textarea>
+
+        <script>
+
+            function generate() {
+                const input = document.getElementById("input").value;
+                let result = [];
+                input.split("\n").forEach(line => {
+                    const filename = line.split(":")[0];
+                    const title = line.split(":")[1];
+                    result.push({
+                        src: "/" + filename,
+                        title: title
+                    });
+                });
+                document.getElementById("output").value = JSON.stringify(result, null, 2);
+            }
+
+        </script>
+
+    </body>
+</html>
