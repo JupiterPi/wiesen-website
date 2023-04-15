@@ -1,0 +1,19 @@
+#buttons {
+  padding: 15px 0;
+
+  display: flex;
+  gap: 15px;
+
+  a {
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+
+    box-shadow: 0 0 3px 2px #007e00;
+
+    text-decoration: none;
+  }
+}

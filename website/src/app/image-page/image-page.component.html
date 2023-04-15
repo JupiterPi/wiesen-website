@@ -1,16 +1,18 @@
 <h2>Bild</h2>
 
+<p>
+  {{picture?.title}}
+</p>
+
 <app-image
   [src]="imageSrc"
   [show-title]="false"
   onclick-action="openImage">
+  #img
 ></app-image>
 
-<p>
-  {{picture?.title}}
+<div id="buttons">
+  <a [href]="getDownloadUrl() | async" target="_blank">Öffnen / Herunterladen</a>
+</div>
 
-  <ng-container *ngIf="picture?.description">
-    <br>
-    <div [md-block]="descriptionNode"></div>
-  </ng-container>
-</p>
+<div [md-block]="descriptionNode" *ngIf="picture?.description"></div>
